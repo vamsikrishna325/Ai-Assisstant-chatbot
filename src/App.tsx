@@ -69,52 +69,49 @@ export default function ChatbotInterface() {
     return () => unsubscribe();
   }, []);
 
- useEffect(() => {
-  if (!user) return;
-  const q = query(collection(db, 'chats'), where('userId', '==', user.uid));
-  const unsubscribe = onSnapshot(q, (snapshot: QuerySnapshot) => {
-    const chats: Chat[] = [];
-    snapshot.forEach((docSnap: any) => {
-      const data = docSnap.data();
-      chats.push({
-        id: docSnap.id,
-        title: data.title || 'Untitled Chat',
-        date: formatDate(data.updatedAt),
-        messages: data.messages || [],
-        userId: data.userId,
-        createdAt: data.createdAt,
-        updatedAt: data.updatedAt
+  useEffect(() => {
+    if (!user) return;
+    const q = query(collection(db, 'chats'), where('userId', '==', user.uid));
+    const unsubscribe = onSnapshot(q, (snapshot: QuerySnapshot) => {
+      const chats: Chat[] = [];
+      snapshot.forEach((docSnap: any) => {
+        const data = docSnap.data();
+        chats.push({
+          id: docSnap.id,
+          title: data.title || 'Untitled Chat',
+          date: formatDate(data.updatedAt),
+          messages: data.messages || [],
+          userId: data.userId,
+          createdAt: data.createdAt,
+          updatedAt: data.updatedAt
+        });
+      });
+      
+      chats.sort((a, b) => {
+        const aTime = a.updatedAt?.toMillis?.() || 0;
+        const bTime = b.updatedAt?.toMillis?.() || 0;
+        return bTime - aTime;
+      });
+      
+      setChatHistory(prev => {
+        if (prev.length !== chats.length) {
+          return chats;
+        }
+        
+        const updatedChat = chats.find(c => c.id === currentChatId);
+        const prevChat = prev.find(c => c.id === currentChatId);
+        
+        if (updatedChat && prevChat) {
+          return prev.map(chat => 
+            chat.id === currentChatId ? updatedChat : chat
+          );
+        }
+        
+        return chats;
       });
     });
-    
-    chats.sort((a, b) => {
-      const aTime = a.updatedAt?.toMillis?.() || 0;
-      const bTime = b.updatedAt?.toMillis?.() || 0;
-      return bTime - aTime;
-    });
-    
-    // Only update if it's a new chat or deleted chat, not just an update
-    setChatHistory(prev => {
-    
-      if (prev.length !== chats.length) {
-        return chats;
-      }
-      
-      const updatedChat = chats.find(c => c.id === currentChatId);
-      const prevChat = prev.find(c => c.id === currentChatId);
-      
-      if (updatedChat && prevChat) {
-        // Only update the specific chat that changed, keep order
-        return prev.map(chat => 
-          chat.id === currentChatId ? updatedChat : chat
-        );
-      }
-      
-      return chats;
-    });
-  });
-  return () => unsubscribe();
-}, [user, currentChatId]);
+    return () => unsubscribe();
+  }, [user, currentChatId]);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -430,6 +427,10 @@ export default function ChatbotInterface() {
     setMessages([]);
     setCurrentChatId(null);
     shouldScrollRef.current = true;
+    // Close sidebar on mobile after creating new chat
+    if (window.innerWidth <= 768) {
+      setShowChatSidebar(false);
+    }
   };
 
   const handleSelectChat = (chat: Chat) => {
@@ -437,6 +438,10 @@ export default function ChatbotInterface() {
     setMessages(chat.messages || []);
     setCurrentChatId(chat.id);
     setOpenMenuId(null);
+    // Close sidebar on mobile after selecting chat
+    if (window.innerWidth <= 768) {
+      setShowChatSidebar(false);
+    }
     setTimeout(() => { shouldScrollRef.current = true; }, 100);
   };
 
@@ -477,6 +482,10 @@ export default function ChatbotInterface() {
     setOpenMenuId(openMenuId === chatId ? null : chatId);
   };
 
+  const toggleSidebar = () => {
+    setShowChatSidebar(!showChatSidebar);
+  };
+
   const suggestedPrompts = ['Explain quantum computing', 'Help me write an email', 'Analyze this image', 'Generate ideas'];
 
   if (!user) {
@@ -512,45 +521,52 @@ export default function ChatbotInterface() {
 
   return (
     <div className="chat-layout">
+      {/* Overlay for mobile sidebar */}
       {showChatSidebar && (
-        <div className="sidebar-dark">
-          <button className="new-chat-btn" onClick={handleNewChat}><Plus size={18} />New Chat</button>
-          <div className="chat-history-list">
-            {chatHistory.length === 0 ? (
-              <div style={{ padding: '1rem', color: '#8b92a8', fontSize: '0.875rem', textAlign: 'center' }}>No chat history yet. Start a conversation!</div>
-            ) : (
-              chatHistory.map((chat) => (
-                <div key={chat.id} className={`chat-history-item-dark ${currentChatId === chat.id ? 'active' : ''}`} onClick={() => handleSelectChat(chat)}>
-                  <div className="chat-item-content">
-                    <span className="chat-item-title">{chat.title}</span>
-                    <span className="chat-item-date">{chat.date}</span>
-                  </div>
-                  <div className="chat-item-menu">
-                    <button onClick={(e) => toggleMenu(chat.id, e)} className="chat-menu-btn" title="More options"><MoreVertical size={16} /></button>
-                    {openMenuId === chat.id && (
-                      <div className="chat-menu-dropdown">
-                        <button onClick={(e) => handleShareChat(chat, e)} className="chat-menu-item"><Share2 size={14} />Share</button>
-                        <button onClick={(e) => handleDeleteChat(chat.id, e)} className="chat-menu-item delete"><Trash2 size={14} />Delete</button>
-                      </div>
-                    )}
-                  </div>
+        <div 
+          className={`sidebar-overlay ${showChatSidebar ? 'active' : ''}`}
+          onClick={() => setShowChatSidebar(false)}
+        />
+      )}
+      
+      <div className={`sidebar-dark ${showChatSidebar ? 'mobile-open' : ''}`}>
+        <button className="new-chat-btn" onClick={handleNewChat}><Plus size={18} />New Chat</button>
+        <div className="chat-history-list">
+          {chatHistory.length === 0 ? (
+            <div style={{ padding: '1rem', color: '#8b92a8', fontSize: '0.875rem', textAlign: 'center' }}>No chat history yet. Start a conversation!</div>
+          ) : (
+            chatHistory.map((chat) => (
+              <div key={chat.id} className={`chat-history-item-dark ${currentChatId === chat.id ? 'active' : ''}`} onClick={() => handleSelectChat(chat)}>
+                <div className="chat-item-content">
+                  <span className="chat-item-title">{chat.title}</span>
+                  <span className="chat-item-date">{chat.date}</span>
                 </div>
-              ))
-            )}
-          </div>
-          <div className="user-profile">
-            <div className="user-avatar"><User size={20} /></div>
-            <div className="user-info">
-              <span className="user-name">{user.email?.split('@')[0] || 'User'}</span>
-              <button onClick={handleLogout} className="logout-link">Logout</button>
-            </div>
+                <div className="chat-item-menu">
+                  <button onClick={(e) => toggleMenu(chat.id, e)} className="chat-menu-btn" title="More options"><MoreVertical size={16} /></button>
+                  {openMenuId === chat.id && (
+                    <div className="chat-menu-dropdown">
+                      <button onClick={(e) => handleShareChat(chat, e)} className="chat-menu-item"><Share2 size={14} />Share</button>
+                      <button onClick={(e) => handleDeleteChat(chat.id, e)} className="chat-menu-item delete"><Trash2 size={14} />Delete</button>
+                    </div>
+                  )}
+                </div>
+              </div>
+            ))
+          )}
+        </div>
+        <div className="user-profile">
+          <div className="user-avatar"><User size={20} /></div>
+          <div className="user-info">
+            <span className="user-name">{user.email?.split('@')[0] || 'User'}</span>
+            <button onClick={handleLogout} className="logout-link">Logout</button>
           </div>
         </div>
-      )}
+      </div>
+      
       <div className="chat-area-dark">
         <div className="chat-header-dark">
           <div className="assistant-info">
-            <button className="hamburger-btn" onClick={() => setShowChatSidebar(!showChatSidebar)} title="Toggle chat history"><Menu size={24} /></button>
+            <button className="hamburger-btn" onClick={toggleSidebar} title="Toggle chat history"><Menu size={24} /></button>
             <div className="assistant-avatar"><Sparkles size={24} /></div>
             <div>
               <h2 className="assistant-name">AI Assistant</h2>
