@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { Send, Upload, Camera, Plus, Sparkles, User, Trash2, Share2, MoreVertical, Bell, Megaphone, X, Menu } from 'lucide-react';
 import { auth, googleProvider, db } from './firebase';
 import { supabase } from './supabase';
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signInWithPopup, signOut, onAuthStateChanged,type User as FirebaseUser } from 'firebase/auth';
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signInWithPopup, signOut, onAuthStateChanged, type User as FirebaseUser } from 'firebase/auth';
 import { collection, addDoc, updateDoc, deleteDoc, doc, query, where, onSnapshot, serverTimestamp, Timestamp, QuerySnapshot } from 'firebase/firestore';
 import './App.css';
 
@@ -45,6 +45,7 @@ export default function ChatbotInterface() {
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const shouldScrollRef = useRef(true);
   const videoRef = useRef<HTMLVideoElement>(null);
+  const isUpdatingCurrentChat = useRef(false);
 
   const scrollToBottom = () => {
     if (shouldScrollRef.current) {
@@ -68,32 +69,52 @@ export default function ChatbotInterface() {
     return () => unsubscribe();
   }, []);
 
-  useEffect(() => {
-    if (!user) return;
-    const q = query(collection(db, 'chats'), where('userId', '==', user.uid));
-    const unsubscribe = onSnapshot(q, (snapshot: QuerySnapshot) => {
-      const chats: Chat[] = [];
-      snapshot.forEach((docSnap: any) => {
-        const data = docSnap.data();
-        chats.push({
-          id: docSnap.id,
-          title: data.title || 'Untitled Chat',
-          date: formatDate(data.updatedAt),
-          messages: data.messages || [],
-          userId: data.userId,
-          createdAt: data.createdAt,
-          updatedAt: data.updatedAt
-        });
+ useEffect(() => {
+  if (!user) return;
+  const q = query(collection(db, 'chats'), where('userId', '==', user.uid));
+  const unsubscribe = onSnapshot(q, (snapshot: QuerySnapshot) => {
+    const chats: Chat[] = [];
+    snapshot.forEach((docSnap: any) => {
+      const data = docSnap.data();
+      chats.push({
+        id: docSnap.id,
+        title: data.title || 'Untitled Chat',
+        date: formatDate(data.updatedAt),
+        messages: data.messages || [],
+        userId: data.userId,
+        createdAt: data.createdAt,
+        updatedAt: data.updatedAt
       });
-      chats.sort((a, b) => {
-        const aTime = a.updatedAt?.toMillis?.() || 0;
-        const bTime = b.updatedAt?.toMillis?.() || 0;
-        return bTime - aTime;
-      });
-      setChatHistory(chats);
     });
-    return () => unsubscribe();
-  }, [user]);
+    
+    chats.sort((a, b) => {
+      const aTime = a.updatedAt?.toMillis?.() || 0;
+      const bTime = b.updatedAt?.toMillis?.() || 0;
+      return bTime - aTime;
+    });
+    
+    // Only update if it's a new chat or deleted chat, not just an update
+    setChatHistory(prev => {
+    
+      if (prev.length !== chats.length) {
+        return chats;
+      }
+      
+      const updatedChat = chats.find(c => c.id === currentChatId);
+      const prevChat = prev.find(c => c.id === currentChatId);
+      
+      if (updatedChat && prevChat) {
+        // Only update the specific chat that changed, keep order
+        return prev.map(chat => 
+          chat.id === currentChatId ? updatedChat : chat
+        );
+      }
+      
+      return chats;
+    });
+  });
+  return () => unsubscribe();
+}, [user, currentChatId]);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -185,32 +206,22 @@ export default function ChatbotInterface() {
 
   const uploadFileToSupabase = async (file: File): Promise<string> => {
     if (!user) throw new Error('No user logged in');
-    
     const fileExtension = file.name.split('.').pop();
     const fileName = `${user.uid}/${Date.now()}_${Math.random().toString(36).substring(7)}.${fileExtension}`;
-    
     try {
-      const { error } = await supabase.storage
-        .from('chat-uploads')
-        .upload(fileName, file, {
-          cacheControl: '3600',
-          upsert: false,
-          contentType: file.type
-        });
-
+      const { error } = await supabase.storage.from('chat-uploads').upload(fileName, file, {
+        cacheControl: '3600',
+        upsert: false,
+        contentType: file.type
+      });
       if (error) {
         console.error('Supabase upload error:', error);
         throw new Error(`Upload failed: ${error.message}`);
       }
-
-      const { data: urlData } = supabase.storage
-        .from('chat-uploads')
-        .getPublicUrl(fileName);
-
+      const { data: urlData } = supabase.storage.from('chat-uploads').getPublicUrl(fileName);
       if (!urlData || !urlData.publicUrl) {
         throw new Error('Failed to get public URL');
       }
-
       return urlData.publicUrl;
     } catch (error) {
       console.error('Error in uploadFileToSupabase:', error);
@@ -223,6 +234,7 @@ export default function ChatbotInterface() {
     const firstMessage = chatMessages[0].text.slice(0, 50);
     const title = firstMessage.length < 50 ? firstMessage : firstMessage + '...';
     try {
+      isUpdatingCurrentChat.current = true;
       if (chatId) {
         const chatRef = doc(db, 'chats', chatId);
         await updateDoc(chatRef, {
@@ -243,6 +255,7 @@ export default function ChatbotInterface() {
       }
     } catch (err) {
       console.error('Error saving chat:', err);
+      isUpdatingCurrentChat.current = false;
       return null;
     }
   };
@@ -304,59 +317,35 @@ export default function ChatbotInterface() {
   const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (!file) return;
-    
     if (file.size > 10 * 1024 * 1024) {
       alert('File must be less than 10MB');
       e.target.value = '';
       return;
     }
-    
     const fileType: 'image' | 'file' = file.type.startsWith('image/') ? 'image' : 'file';
     let processedFile = file;
-    
     if (fileType === 'image') {
       processedFile = await compressImage(file);
     }
-    
     const previewUrl = URL.createObjectURL(processedFile);
     const tempMessageIndex = messages.length;
-    const tempMessage: Message = { 
-      text: `Uploading: ${file.name}`, 
-      sender: 'user', 
-      timestamp: Date.now(), 
-      fileUrl: previewUrl, 
-      fileType, 
-      fileName: file.name 
-    };
-    
+    const tempMessage: Message = { text: `Uploading: ${file.name}`, sender: 'user', timestamp: Date.now(), fileUrl: previewUrl, fileType, fileName: file.name };
     setMessages(prev => [...prev, tempMessage]);
     shouldScrollRef.current = true;
     setUploading(true);
-    
     try {
       const fileUrl = await uploadFileToSupabase(processedFile);
-      
-      const newMessage: Message = { 
-        text: `Uploaded: ${file.name}`, 
-        sender: 'user', 
-        timestamp: Date.now(), 
-        fileUrl, 
-        fileType, 
-        fileName: file.name 
-      };
-      
+      const newMessage: Message = { text: `Uploaded: ${file.name}`, sender: 'user', timestamp: Date.now(), fileUrl, fileType, fileName: file.name };
       setMessages(prev => {
         const updated = [...prev];
         updated[tempMessageIndex] = newMessage;
         return updated;
       });
-      
       const currentMessages = [...messages, newMessage];
       const savedChatId = await saveChatToFirestore(currentMessages, currentChatId);
       if (!currentChatId && savedChatId) {
         setCurrentChatId(savedChatId);
       }
-      
       URL.revokeObjectURL(previewUrl);
     } catch (err: any) {
       console.error('Upload error:', err);
@@ -395,62 +384,36 @@ export default function ChatbotInterface() {
 
   const capturePhoto = async () => {
     if (!videoRef.current) return;
-    
     const canvas = document.createElement('canvas');
     canvas.width = videoRef.current.videoWidth;
     canvas.height = videoRef.current.videoHeight;
     const ctx = canvas.getContext('2d');
-    
     if (!ctx) return;
-    
     ctx.drawImage(videoRef.current, 0, 0);
-    
     canvas.toBlob(async (blob) => {
       if (!blob) return;
-      
       const file = new File([blob], `photo_${Date.now()}.jpg`, { type: 'image/jpeg' });
       const compressedFile = await compressImage(file);
       const previewUrl = URL.createObjectURL(compressedFile);
-      
       const tempMessageIndex = messages.length;
-      const tempMessage: Message = { 
-        text: 'Saving photo...', 
-        sender: 'user', 
-        timestamp: Date.now(), 
-        fileUrl: previewUrl, 
-        fileType: 'image', 
-        fileName: compressedFile.name 
-      };
-      
+      const tempMessage: Message = { text: 'Saving photo...', sender: 'user', timestamp: Date.now(), fileUrl: previewUrl, fileType: 'image', fileName: compressedFile.name };
       setMessages(prev => [...prev, tempMessage]);
       shouldScrollRef.current = true;
       closeCamera();
       setUploading(true);
-      
       try {
         const fileUrl = await uploadFileToSupabase(compressedFile);
-        
-        const newMessage: Message = { 
-          text: 'Photo captured', 
-          sender: 'user', 
-          timestamp: Date.now(), 
-          fileUrl, 
-          fileType: 'image', 
-          fileName: compressedFile.name 
-        };
-        
+        const newMessage: Message = { text: 'Photo captured', sender: 'user', timestamp: Date.now(), fileUrl, fileType: 'image', fileName: compressedFile.name };
         setMessages(prev => {
           const updated = [...prev];
           updated[tempMessageIndex] = newMessage;
           return updated;
         });
-        
         const currentMessages = [...messages, newMessage];
         const savedChatId = await saveChatToFirestore(currentMessages, currentChatId);
         if (!currentChatId && savedChatId) {
           setCurrentChatId(savedChatId);
         }
-        
         URL.revokeObjectURL(previewUrl);
       } catch (err: any) {
         console.error('Photo capture error:', err);
