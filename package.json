@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "@supabase/supabase-js": "^2.91.1",
     "firebase": "^12.8.0",
     "lucide-react": "^0.563.0",

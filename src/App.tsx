@@ -1,7 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
 import type { ChangeEvent, KeyboardEvent } from 'react';
 import { Send, Upload, Camera, Plus, Sparkles, User, Trash2, Share2, MoreVertical, Bell, Megaphone, X, Menu } from 'lucide-react';
-import { auth, googleProvider, db, storage } from './firebase';
+import { auth, googleProvider, db } from './firebase';
+import { supabase } from './supabase';
 import { 
   createUserWithEmailAndPassword, 
   signInWithEmailAndPassword,
@@ -22,7 +23,6 @@ import {
   serverTimestamp,
   Timestamp
 } from 'firebase/firestore';
-import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 import './App.css';
 
 interface Message {
@@ -213,12 +213,30 @@ export default function ChatbotInterface() {
     }
   };
 
+  // Fixed: Upload file to Supabase Storage
   const uploadFileToStorage = async (file: File): Promise<string> => {
     if (!user) throw new Error('No user logged in');
     
-    const fileRef = ref(storage, `uploads/${user.uid}/${Date.now()}_${file.name}`);
-    const snapshot = await uploadBytes(fileRef, file);
-    return await getDownloadURL(snapshot.ref);
+    const fileName = `${user.uid}/${Date.now()}_${file.name}`;
+    
+    const { data, error } = await supabase.storage
+      .from('test')
+      .upload(fileName, file, {
+        cacheControl: '3600',
+        upsert: false
+      });
+
+    if (error) {
+      console.error('Supabase upload error:', error);
+      throw new Error(`Upload failed: ${error.message}`);
+    }
+
+    // Get public URL
+    const { data: urlData } = supabase.storage
+      .from('test')
+      .getPublicUrl(fileName);
+
+    return urlData.publicUrl;
   };
 
   const saveChatToFirestore = async (chatMessages: Message[], chatId?: string | null) => {
@@ -317,9 +335,9 @@ export default function ChatbotInterface() {
       if (!currentChatId && savedChatId) {
         setCurrentChatId(savedChatId);
       }
-    } catch (err) {
+    } catch (err: any) {
       console.error('Upload error:', err);
-      alert('Failed to upload file');
+      alert(`Failed to upload file: ${err.message}`);
     } finally {
       setUploading(false);
       e.target.value = '';
@@ -383,9 +401,9 @@ export default function ChatbotInterface() {
             }
             
             closeCamera();
-          } catch (err) {
+          } catch (err: any) {
             console.error('Photo capture error:', err);
-            alert('Failed to save photo');
+            alert(`Failed to save photo: ${err.message}`);
           } finally {
             setUploading(false);
           }
@@ -769,7 +787,7 @@ export default function ChatbotInterface() {
               type="text"
               value={input}
               onChange={(e: ChangeEvent<HTMLInputElement>) => setInput(e.target.value)}
-              onKeyPress={(e: KeyboardEvent<HTMLInputElement>) => e.key === 'Enter' && handleSend()}
+              onKeyDown={(e: KeyboardEvent<HTMLInputElement>) => e.key === 'Enter' && handleSend()}
               placeholder={uploading ? 'Uploading...' : 'Type a message...'}
               className="message-input-dark"
               disabled={uploading}
