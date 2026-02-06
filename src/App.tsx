@@ -231,7 +231,6 @@ export default function ChatbotInterface() {
       throw new Error(`Upload failed: ${error.message}`);
     }
 
-    // Get public URL
     const { data: urlData } = supabase.storage
       .from('test')
       .getPublicUrl(fileName);
@@ -292,7 +291,7 @@ export default function ChatbotInterface() {
 
     setTimeout(async () => {
       const botMessage: Message = {
-        text: "I'm a demo bot. In a real app, I'd process your message here!",
+        text: "I'm a AI bot. In a real app, I'd process your message here!",
         sender: 'bot',
         timestamp: Date.now()
       };
