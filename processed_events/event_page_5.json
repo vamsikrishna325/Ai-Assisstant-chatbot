@@ -1,0 +1,28 @@
+{
+  "event_name": "Industrial Visit to APTRANSCO",
+  "event_type": "Industrial Visit",
+  "department": "NSRIT AUTONOMOUS, Department of EEE",
+  "dates": {
+    "event_date": "18-10-2025",
+    "end_date": "18-10-2025",
+    "registration_deadline": null,
+    "abstract_submission": null
+  },
+  "time": null,
+  "venue": "APTRANSCO 400/220 KV Substation, Kalapaka, Visakhapatnam",
+  "description": "An industrial visit for students of the Department of EEE to the APTRANSCO 400/220 KV Substation, likely for practical exposure to high-voltage transmission and substation operations.",
+  "registration_fee": null,
+  "contact_persons": [],
+  "prizes": null,
+  "topics": [
+    "Electrical Power Transmission",
+    "Substation Operations",
+    "400/220 KV Systems"
+  ],
+  "target_audience": "Students of the Department of EEE",
+  "additional_info": "Hosted by NSRIT AUTONOMOUS. For more information, visit nsrit.edu.in. Affiliations include NAAC, NBA, IEEE.",
+  "raw_text": "NSRIT AUTONOMOUS INDUSTRIAL VISIT APTRANSCO 400/220 KV Substation Kalapaka, Visakhapatnam Department of EEE OCTOBER 2025 18 SATURDAY More Info: nsrit.edu.in [Social Media Icons] Scanned with OKEN Scanner [Logos: MITS, NAAC, NBA, IEEE]",
+  "source_page": 5,
+  "source_file": "events_photos.pdf",
+  "processed_at": "2026-02-12T17:32:09.488459"
+}

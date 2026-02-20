@@ -1,0 +1,17 @@
+📢 Cyber Security Workshop
+==================================================
+Type: Workshop
+Department: NSRIT Autonomous, Department of CSE, CSM & CSD
+📅 Event Date: 10-10-2025
+📅 End Date: 11-10-2025
+
+Description:
+This 2-day workshop is designed to protect systems, networks, and data from cyber threats. Participants will gain hands-on experience with Kali Linux, Nmap, and real-world hacking tools. They will learn to secure Wi-Fi networks and systems from common cyberattacks, and understand advanced techniques like MITM attacks, dark web usage, and bug bounty hunting. The workshop also includes building practical problem-solving skills through a Capture the Flag challenge.
+
+Topics: Kali Linux, Nmap, Real-world hacking tools, Wi-Fi network security, Protection against common cyberattacks, MITM attacks, Dark Web usage, Bug Bounty hunting, Capture the Flag challenge
+
+💰 Registration Fee: 150/-
+🏆 Prizes: Awards for top performers in the Capture the Flag challenge.
+
+ℹ️ Additional Info:
+This is a 2-day workshop organized by NSRIT Autonomous, Department of CSE, CSM & CSD, possibly in association with ACM and Computer Society of India (CSI) given the logos.

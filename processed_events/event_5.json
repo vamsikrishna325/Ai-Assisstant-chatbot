@@ -1,0 +1,36 @@
+{
+  "event_name": "HACKTRAID 2.0 2026",
+  "event_type": "Hackathon",
+  "department": "LNIT SUMMIT (Lendi Engineering College)",
+  "dates": {
+    "event_date": "26-02-2026",
+    "end_date": "28-02-2026",
+    "registration_deadline": null,
+    "abstract_submission": null
+  },
+  "time": null,
+  "venue": "Lendi Engineering College Campus (inferred)",
+  "description": "Collaborate, code, and create change. Because the future is built on campus. The event flow includes: Day 1: Inauguration, Keynote, Bootcamp; Day 2: Hackathon Development (Full Day); Day 3: Evaluation, Demo, Valedictory.",
+  "registration_fee": "₹750 per head",
+  "contact_persons": [
+    {
+      "name": null,
+      "role": "General Inquiry",
+      "phone": "7093461111",
+      "email": "lendi_2008@yahoo.com"
+    }
+  ],
+  "prizes": "Price Pool: ₹1,75,000",
+  "topics": [
+    "Hackathon Development",
+    "Coding",
+    "Innovation",
+    "Problem Solving"
+  ],
+  "target_audience": "Students, Developers, Teams (3-5 persons)",
+  "additional_info": "Team Size: 3-5 persons per team. For more details, visit: https://lendinit.lendi.edu.in. Organized by LNIT SUMMIT and supported by LENDI, AICTE, NBA, Institutions Innovation Council, NAAC, IEEE.",
+  "raw_text": "LENDI AICTE NBA NATIONAL BOARD OF ACCREDITATION INSTITUTIONS INNOVATION COUNCIL NAAC IEEE 18 EXCELLENCE LNIT SUMMIT PRESENTS HACKTRAID 2.0 2026 26th FEB - 28th FEB 2026 Collaborate, code, and create change.Because the future is built on campus. EVENT FLOW: Day 1: Inauguration • Keynote • Bootcamp Day 2: Hackathon Development (Full Day) Day 3: Evaluation • Demo • Valedictory REGISTRATION FEE: ₹750 / HEAD 3-5 PERSONS / TEAM PRICE POOL 1,75,000/- FOR MORE DETAILS https://lendinit.lendi.edu.in lendi engg college LENDI LIET lendi_2008@yahoo.com 7093461111 @lendi6086",
+  "source_file": "event_photos_folder\\image.png",
+  "file_type": "image",
+  "processed_at": "2026-02-19T17:26:00.599053"
+}

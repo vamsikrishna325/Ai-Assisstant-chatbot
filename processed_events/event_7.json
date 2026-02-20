@@ -1,0 +1,29 @@
+{
+  "event_name": "Online Alumni Meet",
+  "event_type": "Alumni Meet",
+  "department": "NSRIT AUTONOMOUS",
+  "dates": {
+    "event_date": "20-12-2025",
+    "end_date": null,
+    "registration_deadline": null,
+    "abstract_submission": null
+  },
+  "time": "10:00 AM",
+  "venue": "Online",
+  "description": "Strengthening Our Alumni Network. The purpose is to come back not just to remember the past, but to reconnect with the people who shaped our dreams.",
+  "registration_fee": null,
+  "contact_persons": [],
+  "prizes": null,
+  "topics": [
+    "Alumni Networking",
+    "Reconnecting with peers",
+    "Reminiscing past experiences"
+  ],
+  "target_audience": "Alumni of NSRIT",
+  "additional_info": "NSRIT is an autonomous institution.",
+  "raw_text": "NSRIT AUTONOMOUS Online Alumni Meet \"Strengthening Our Alumni Network.\" 20.12.2025 10:00 AM I ♥ NSRIT \"We come back not just to remember the past, but to reconnect with the people who shaped our dreams.\" Scanned with OKEN Scanner",
+  "source_file": "event_photos_folder\\events_photos.pdf",
+  "source_page": 7,
+  "file_type": "pdf",
+  "processed_at": "2026-02-12T18:18:28.730391"
+}

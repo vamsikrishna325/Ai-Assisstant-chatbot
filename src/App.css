@@ -529,11 +529,14 @@ body {
   border-radius: 50%;
 }
 
-/* Messages Area */
 .messages-area-dark {
   flex: 1;
   overflow-y: auto;
-  padding: 2rem;
+  padding: 2rem 1rem;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 /* Right Sidebar for Reminders/Announcements */
@@ -568,14 +571,22 @@ body {
 }
 
 .welcome-screen {
-  height: 100%;
+  position: fixed;
+  top: 60px;
+  right: 0;
+  bottom: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 48rem;
-  margin: 0 auto;
   text-align: center;
+  padding: 2rem;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.welcome-screen > * {
+  pointer-events: auto;
 }
 
 .welcome-icon {
@@ -631,11 +642,15 @@ body {
 .messages-list {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 0.25rem;
+  max-width: 48rem;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .message-row {
   display: flex;
+  padding: 0.5rem 0;
 }
 
 .message-row.user {
@@ -646,38 +661,48 @@ body {
   justify-content: flex-start;
 }
 
-.message-bubble {
-  max-width: 32rem;
-  padding: 0.875rem 1.125rem;
-  border-radius: 1.125rem;
-  font-size: 0.9375rem;
-  line-height: 1.5;
-}
-
-.message-bubble.user {
-  background: #22d3ee;
-  color: #0f1419;
-  border-radius: 1.125rem 1.125rem 0.25rem 1.125rem;
-}
-
+/* Bot messages: no bubble, full width, plain text */
 .message-bubble.bot {
-  background: #1e2838;
+  background: transparent;
   color: #e4e6eb;
-  border: 1px solid #2d3748;
-  border-radius: 1.125rem 1.125rem 1.125rem 0.25rem;
+  border: none;
+  border-radius: 0;
+  width: 100%;
+  padding: 0.25rem 0;
+  font-size: 0.9375rem;
+  line-height: 1.7;
+}
+
+/* User messages: small dark pill, right-aligned */
+.message-bubble.user {
+  background: #2d3748;
+  color: #e4e6eb;
+  border-radius: 1.25rem;
+  padding: 0.65rem 1.1rem;
+  max-width: 80%;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  word-break: break-word;
 }
 
 .input-container-dark {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
   max-width: 64rem;
   margin: 2rem auto;
   background: #1a1f2e;
   border: 3px solid #2d3748;
   border-radius: 0.75rem;
   padding: 0.5rem 0.75rem;
+  position: fixed;
+  bottom: 0;
+  left: 260px; 
+  right: 0;
+  align-items: center;
+  gap: 0.75rem;
+  z-index: 10;
 }
+
 
 .file-input-hidden {
   display: none;
@@ -689,20 +714,24 @@ body {
   border: none;
   border-radius: 0.375rem;
   cursor: pointer;
-  color: #8b92a8;
+  color: #9ba6bc;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.2s;
+  flex-shrink: 0;
 }
 
 .input-icon-btn:hover {
-  background: #1e2838;
+  background: #2d3748;
   color: #22d3ee;
 }
 
+/* Line 713 */
 .message-input-dark {
   flex: 1;
+  width: 100%;          /* ← ADD THIS */
+  min-width: 0;         /* ← ADD THIS (fixes flex shrink bug) */
   padding: 0.5rem;
   background: transparent;
   border: none;
@@ -710,13 +739,12 @@ body {
   color: #e4e6eb;
   font-size: 0.9375rem;
 }
-
 .message-input-dark::placeholder {
   color: #6b7280;
 }
 
 .send-btn-dark {
-  padding: 0.5rem;
+  padding: 0.625rem;
   background: transparent;
   border: none;
   border-radius: 0.375rem;
@@ -726,10 +754,12 @@ body {
   align-items: center;
   justify-content: center;
   transition: all 0.2s;
+  flex-shrink: 0;
 }
 
 .send-btn-dark:hover {
-  background: #1e2838;
+  background: #2d3748;
+  color: #22d3ee;
 }
 
 .send-btn-dark:active {
@@ -1006,8 +1036,12 @@ body {
   .sidebar-dark.mobile-open {
     transform: translateX(0);
   }
+
+  .input-container-dark {
+    left: 0; /* Full width on mobile */
+  }
   
-  .message-bubble {
+  .message-bubble.user {
     max-width: 20rem;
   }
   
@@ -1024,4 +1058,41 @@ body {
     max-width: 320px;
     z-index: 999;
   }
+  /* Typing Indicator Animation */
+.typing-indicator {
+  display: flex;
+  gap: 4px;
+  padding: 8px 0;
+}
+
+.typing-indicator span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #8b92a8;
+  animation: typing 1.4s infinite;
+}
+
+.typing-indicator span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.typing-indicator span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes typing {
+  0%, 60%, 100% {
+    transform: translateY(0);
+    opacity: 0.7;
+  }
+  30% {
+    transform: translateY(-10px);
+    opacity: 1;
+  }
+}
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(40px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
 }

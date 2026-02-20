@@ -1,0 +1,20 @@
+📢 STUDENT DEVELOPMENT PROGRAMME ON BUILD YOUR OWN IOT SMART DEVICES
+==================================================
+Type: Student Development Programme
+Department: Nadimapalli Satyanarayana Raju Institute of Technology (NSRIT)
+📅 Event Date: 02-01-2026
+📅 End Date: 06-01-2026
+📍 Venue: Nadimapalli Satyanarayana Raju Institute of Technology, Sontyam, Visakhapatnam, Andhra Pradesh - 531173
+
+Description:
+This Student Development Programme (SDP) aims to provide hands-on practical methods for designing Smart IoT Devices. Participants will learn about Microprocessor and Microcontroller, Computer Organization and Architecture, Embedded C & Assembly Language. The program offers practical exposure to IoT, focusing on designing real-world products and understanding applications of IoT and embedded systems. It also includes guidance on product design and mini-projects. Attendees will have the opportunity to write their own research papers and publish them. Selected students may also receive a paid internship at NSRIT Start-UPS immediately.
+
+Topics: Introduction to IoT and Its Architecture, Introduction to Embedded C & Assembly, Microprocessor and Microcontroller, IoT and its Applications Development, IoT Product Design and Mini Project, Design of Smart IoT Devices, Computer Organization and Architecture, Real-world applications of IoT and embedded systems
+
+💰 Registration Fee: 500 INR
+🏆 Prizes: Paid Internship in NSRIT Start-UPS for selected students
+
+👥 Target Audience: 2nd year students of CSE, EEE, and ME. The SDP is open to all interested students who want to understand the concepts of theory and its practicals, and use these skills to solve real-world problems through design and deployment.
+
+ℹ️ Additional Info:
+Website: www.nsrit.edu.in. College Code: NSRT. Resource Persons: Prof. S R N Reddy (HOD-CSE, IGDTUW, Delhi), Mr. Pratap Reddy (Product Designer, Delhi), Dr. PNE. Naveen (Lead-IIE, NSRIT), Dr. Rajendra Prasad (Faculty-EEE, NSRIT), Mrs. Phani Madhuri (Faculty-ECE, NSRIT).

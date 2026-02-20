@@ -1,0 +1,40 @@
+{
+  "event_name": "INNO YUDH",
+  "event_type": "Hackathon",
+  "department": "Department of Electronics and Communication Engineering, NSRIT Nadimpalli Satyanarayana Raju Institute of Technology, Visakhapatnam",
+  "dates": {
+    "event_date": "12-12-2025",
+    "end_date": "13-12-2025",
+    "registration_deadline": null,
+    "abstract_submission": "23-11-2025"
+  },
+  "time": "24 Hours (duration)",
+  "venue": "NSRIT, Visakhapatnam",
+  "description": "A 24-hour National Level Hackathon focusing on innovation across various themes like Industry 4.0, Agriculture, Healthcare, and more.",
+  "registration_fee": null,
+  "contact_persons": [
+    {
+      "name": "Dr Konari Rajasekhar",
+      "role": "Faculty Co-ordinator",
+      "phone": "+919010663282",
+      "email": "innoyudh.info@gmail.com"
+    }
+  ],
+  "prizes": "50K+",
+  "topics": [
+    "Industry 4.0",
+    "Agriculture",
+    "Health Care",
+    "App Development",
+    "IoT",
+    "AI & ML",
+    "Block Chain",
+    "Student Innovation"
+  ],
+  "target_audience": "National Level (implied for students and developers)",
+  "additional_info": "Organized by E-CUBE and the Department of Electronics and Communication Engineering. In association with Ecomedusys Pvt Ltd. NSRIT is an Autonomous, NBA Tier 1 Accredited institute. Registration via QR code. Instagram handle: e.cube.official.",
+  "raw_text": "NSRIT NADIMPALLI SATYANARAYANA RAJU INSTITUTE OF TECHNOLOGY AUTONOMOUS VISAKHAPATNAM NBA NATIONAL BOARD OF ACCREDITATION TIER 1 ACCREDITED DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING IN ASSOCIATION WITH ECOMEDUSYS PVT LTD E-CUBE PRESENTS INNO YUDH 24 HOURS NATIONAL LEVEL HACKATHON DATE: 12th - 13th DECEMBER 2025 ABSTRACT SUBMISSION: 23rd NOVEMBER 2025 THEMES: INDUSTRY 4.0 AGRICULTURE HEALTH CARE APP DEVELOPMENT IOT AI & ML BLOCK CHAIN APP DEVELOPMENT STUDENT INNOVATION PRIZE POOL 50K+ REGISTER NOW For more info please contact: FACULTY CO-ORDINATOR Dr Konari Rajasekhar +91 90106 63282 e.cube.official innoyudh.info@gmail.com",
+  "source_page": 6,
+  "source_file": "events_photos.pdf",
+  "processed_at": "2026-02-12T17:32:37.457992"
+}

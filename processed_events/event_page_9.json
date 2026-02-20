@@ -1,0 +1,30 @@
+{
+  "event_name": "Industrial Visit to AMTZ",
+  "event_type": "Industrial Visit",
+  "department": "Department of CSE(AIML), NSRIT AUTONOMOUS",
+  "dates": {
+    "event_date": "12-12-2025",
+    "end_date": "",
+    "registration_deadline": "",
+    "abstract_submission": ""
+  },
+  "time": "",
+  "venue": "AMTZ",
+  "description": "Industrial Visit gives practical experience exposure and real world experience to Technical Students.",
+  "registration_fee": "",
+  "contact_persons": [],
+  "prizes": "",
+  "topics": [
+    "Practical experience exposure",
+    "Real world experience",
+    "Computer Science and Engineering (AI&ML)",
+    "Advanced Manufacturing Technology",
+    "Medical Technology"
+  ],
+  "target_audience": "Technical Students",
+  "additional_info": "Organized by NSRIT AUTONOMOUS. For more details, visit www.nsrit.edu.in. NSRIT is AICTE approved, NAAC 'A' accredited, and NBA accredited.",
+  "raw_text": "NSRIT AUTONOMOUS DEPARTMENT OF CSE(AIML) INDUSTRIAL VISIT AMTZ Industrial Visit gives practical experience exposure and real world experience to Technical Students 12 DECEMBER 2025 www.nsrit.edu.in AICTE NAAC NBA Scanned with OKEN Scanner",
+  "source_page": 9,
+  "source_file": "events_photos.pdf",
+  "processed_at": "2026-02-12T17:33:42.150028"
+}

@@ -1,0 +1,27 @@
+📢 Build Your Own IoT Smart Devices
+==================================================
+Type: Student Development Programme
+Department: Nadimpalli Satyanarayana Raju Institute of Technology (NSRIT)
+📅 Event Date: 02-01-2026
+📅 End Date: 06-01-2026
+📍 Venue: Nadimpalli Satyanarayana Raju Institute of Technology, Sontyam, Visakhapatnam, Andhra Pradesh - 531173
+
+Description:
+This Student Development Programme aims to provide hands-on experience and knowledge to design Smart IoT Devices. Participants will learn practical methods for Microprocessor and Microcontroller, Computer organization and Architecture, Embedded C & Assembly Language. The program offers exposure to real-world IoT products, applications of IoT and embedded systems, and product design. It also includes guidance on writing and publishing research papers. Selected students will be offered a paid internship in NSRIT Start-UPS immediately.
+
+Topics: Introduction to IoT and Its Architecture, Introduction to Embedded C & Assembly, Microprocessor and Microcontroller, IoT and its Applications Development, IoT Product Design and Mini Project, Computer organization and Architecture
+
+💰 Registration Fee: 500 INR
+🏆 Prizes: Paid Internship in NSRIT Start-UPS for selected students.
+
+📞 Contact Information:
+  • Prof. S R N Reddy (HOD-CSE, IGDTUW, Delhi)
+  • Mr. Pratap Reddy (Product Designer, Delhi)
+  • Dr. PNE. Naveen (Lead-IIE, NSRIT)
+  • Dr. Rajendra Prasad (Faculty-EEE, NSRIT)
+  • Mrs. Phani Madhuri (Faculty-ECE, NSRIT)
+
+👥 Target Audience: 2nd year students of CSE, EEE and ME. The SDP is also open to all interested students who want to understand the concepts of theory and practical applications of IoT to solve real-world problems through their designs and deployment.
+
+ℹ️ Additional Info:
+Organized by Nadimpalli Satyanarayana Raju Institute of Technology (NSRIT Autonomous). College Code: NSRT. Visit website: www.nsrit.edu.in.

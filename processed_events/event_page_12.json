@@ -1,0 +1,29 @@
+{
+  "event_name": "National Road Safety Month, 2026",
+  "event_type": "Awareness Campaign",
+  "department": "N.S.R.I.T.",
+  "dates": {
+    "event_date": "01-01-2026",
+    "end_date": "31-01-2026",
+    "registration_deadline": null,
+    "abstract_submission": null
+  },
+  "time": null,
+  "venue": null,
+  "description": "A month-long awareness campaign focused on promoting national road safety. The initiative, also known as 'Road Safety Campaign 2026' (सड़क सुरक्षा अभियान 2026), aims to encourage safe practices and reduce road accidents.",
+  "registration_fee": null,
+  "contact_persons": [],
+  "prizes": null,
+  "topics": [
+    "Road Safety",
+    "Traffic Rules",
+    "Safe Driving Practices",
+    "Road Signs Awareness"
+  ],
+  "target_audience": "General Public, Road Users, Drivers, Pedestrians",
+  "additional_info": "The event is affiliated with www.nsrit.edu.in, which likely serves as an organizing or supporting institution. The slogan is 'भारत करे, सुरक्षित रहे' (India makes it safe, stays safe).",
+  "raw_text": "NATIONAL ROAD SAFETY MONTH, 2026 1-31 January सड़क सुरक्षा अभियान 2026 भारत करे, सुरक्षित रहे www.nsrit.edu.in ROAD SAFETY PLEASE SLOW DOWN THINK ROAD SAFETY LEFT",
+  "source_page": 12,
+  "source_file": "events_photos.pdf",
+  "processed_at": "2026-02-12T17:35:04.407760"
+}

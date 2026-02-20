@@ -1,0 +1,1506 @@
+{
+  "metadata": {
+    "source_file": "events_photos.pdf",
+    "total_pages": 13,
+    "successful_extractions": 13,
+    "failed_extractions": 0,
+    "processed_at": "2026-02-12T17:35:44.964623",
+    "total_events": 30,
+    "last_updated": "2026-02-19T17:26:00.606462"
+  },
+  "events": [
+    {
+      "event_name": "Industrial Visit: Water Treatment Plant",
+      "event_type": "Industrial Visit",
+      "department": "Department of Civil Engineering, NSRIT Autonomous",
+      "dates": {
+        "event_date": "05-03-2025",
+        "end_date": null,
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": null,
+      "venue": "Narava, Visakhapatnam, Andhra Pradesh",
+      "description": "Water treatment is a crucial aspect of civil engineering, as it ensures the safe and sustainable management of water resources.",
+      "registration_fee": null,
+      "contact_persons": [],
+      "prizes": null,
+      "topics": [
+        "Water Treatment",
+        "Civil Engineering",
+        "Sustainable Management of Water Resources"
+      ],
+      "target_audience": "Civil Engineering students and professionals (inferred from department and topic)",
+      "additional_info": "For more information, visit www.nsrit.edu.in. Social media links (WhatsApp, Facebook, Instagram, YouTube, LinkedIn) are also provided for further engagement. A 'LEARN MORE' button is also present.",
+      "raw_text": "NSRIT AUTONOMOUS LEARN MORE INDUSTRIAL VISIT WATER TREATMENT PLANT NARAVA, VISAKHAPATNAM, ANDHRA PRADESH Water treatment is a crucial aspect of civil engineering, as it ensures the safe and sustainable management of water resources. DEPARTMENT OF CIVIL ENGINEERING 05 MARCH 2025 www.nsrit.edu.in",
+      "source_page": 1,
+      "source_file": "events_photos.pdf",
+      "processed_at": "2026-02-12T17:30:25.482392"
+    },
+    {
+      "event_name": "TECHNIMBLE 2025",
+      "event_type": "Technical Fest / Competition",
+      "department": "NADIMPALLI SATYANARAYANA RAJU INSTITUTE OF TECHNOLOGY (NSRIT) AUTONOMOUS",
+      "dates": {
+        "event_date": "01-03-2025",
+        "end_date": null,
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": null,
+      "venue": "NSRIT, Sontyam, Pendurthi-Anandapuram Highway, Visakhapatnam- 531173",
+      "description": "A comprehensive technical and management fest, 'TECHNIMBLE 2025', organized by NSRIT. The event features a variety of activities including Poster Presentations, Paper Presentations, Project Expos, Technical Quizzes, Modeling & 3D Printing, Technical Treasure Hunts, Bridge Bust, B-Quiz, Ad-Mad, and Startup Idea competitions across multiple disciplines.",
+      "registration_fee": "₹300 per head per event",
+      "contact_persons": [
+        {
+          "name": "A.Suraj Kumar",
+          "role": "Faculty Coordinator (CSE)",
+          "phone": "9866041929",
+          "email": null
+        },
+        {
+          "name": "K.Ramanaji",
+          "role": "Faculty Coordinator (ECE)",
+          "phone": "9866418529",
+          "email": null
+        },
+        {
+          "name": "M.Swathi",
+          "role": "Faculty Coordinator (EEE)",
+          "phone": "8500900559",
+          "email": null
+        },
+        {
+          "name": "K.Ram Prasad",
+          "role": "Faculty Coordinator (MECH)",
+          "phone": "7569323977",
+          "email": null
+        },
+        {
+          "name": "G.Chanikya",
+          "role": "Faculty Coordinator (CIVIL)",
+          "phone": "7997263378",
+          "email": null
+        },
+        {
+          "name": "T.Narayan Rao",
+          "role": "Faculty Coordinator (MBA)",
+          "phone": "8143911386",
+          "email": null
+        },
+        {
+          "name": "DR.T.V.S. Sri Ram",
+          "role": "Faculty Coordinator (MCA)",
+          "phone": "9440240968",
+          "email": null
+        },
+        {
+          "name": "CH.Hari Kiran",
+          "role": "Student Coordinator (CSE)",
+          "phone": "9491645242",
+          "email": null
+        },
+        {
+          "name": "S.S.Datta",
+          "role": "Student Coordinator (ECE)",
+          "phone": "9515071232",
+          "email": null
+        },
+        {
+          "name": "S.Yogendhra",
+          "role": "Student Coordinator (EEE)",
+          "phone": "6301243178",
+          "email": null
+        },
+        {
+          "name": "V.Madhav",
+          "role": "Student Coordinator (MECH)",
+          "phone": "9392022184",
+          "email": null
+        },
+        {
+          "name": "K Praveen Kumar",
+          "role": "Student Coordinator (CIVIL)",
+          "phone": "7032518818",
+          "email": null
+        },
+        {
+          "name": "R.Monika",
+          "role": "Student Coordinator (MBA)",
+          "phone": "9440761843",
+          "email": null
+        },
+        {
+          "name": "V.Rajesh",
+          "role": "Student Coordinator (MCA)",
+          "phone": "9110308571",
+          "email": null
+        }
+      ],
+      "prizes": "Exciting Prizes",
+      "topics": [
+        "Poster Presentation",
+        "Paper Presentation",
+        "Project Expo",
+        "Technical Quiz",
+        "Modeling & 3D Printing",
+        "Technical Treasure Hunt",
+        "Bridge Bust",
+        "B-Quiz",
+        "Ad-Mad",
+        "Startup Idea"
+      ],
+      "target_audience": "Students from various engineering and management disciplines (CSE, CSD, CSM, ECE, EEE, MECH, CIVIL, MBA, MCA)",
+      "additional_info": "Conveners: Dr.A.S.S.V. Ram Kumar, Dr.V. Sreerama Murthy. Coordinator: Sri. N. Viswanadha Reddy. The institute is accredited by NBA (National Board of Accreditation). Registration can be done by scanning the provided QR code.",
+      "raw_text": "NSRIT AUTONOMOUS NADIMPALLI SATYANARAYANA RAJU INSTITUTE OF TECHNOLOGY SONTYAM, PENDHURTHI-ANANDAPURAM HIGHWAY, VISAKHAPATNAM- 531173 MAR 01st TECHNIMBLE 2025 CSE/CSD/CSM ECE MECH EEE CIVIL MBA POSTER PRESENTATION PAPER PRESENTATION PROJECT EXPO TECHNICAL QUIZ MODELING & 3D PRINTING TECHNICAL TREASURE HUNT BRIDGE BUST B-QUIZ AD-MAD STARTUP IDEA WIN EXCITING PRIZES Register Here FACULTY COORDINATES A.Suraj Kumar (CSE) 9866041929 K.Ramanaji (ECE) 9866418529 M.Swathi (EEE) 8500900559 K.Ram Prasad (MECH) 7569323977 G.Chanikya (CIVIL) 7997263378 T.Narayan Rao (MBA) 8143911386 DR.T.V.S. Sri Ram (MCA) 9440240968 STUDENT COORDINATES CH.Hari Kiran (CSE) 9491645242 S.S.Datta (ECE) 9515071232 S.Yogendhra (EEE) 6301243178 V.Madhav (MECH) 9392022184 K Praveen Kumar (CIVIL) 7032518818 R.Monika (MBA) 9440761843 V.Rajesh (MCA) 9110308571 REGISTRATION FEE 300/- PER HEAD PER EVENT Conveners: Dr.A.S.S.V. Ram Kumar, Dr.V. Sreerama Murthy Coordinator: Sri. N. Viswanadha Reddy NBA Accredited by National Board of Accreditation",
+      "source_page": 2,
+      "source_file": "events_photos.pdf",
+      "processed_at": "2026-02-12T17:31:04.012011"
+    },
+    {
+      "event_name": "IoT & Its Applications",
+      "event_type": "Workshop",
+      "department": "Department of Electronics and Communication Engineering, NSRIT Autonomous",
+      "dates": {
+        "event_date": "22-09-2025",
+        "end_date": "24-09-2025",
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": null,
+      "venue": null,
+      "description": "A 3-day hands-on workshop focused on the Internet of Things (IoT) and its various applications.",
+      "registration_fee": null,
+      "contact_persons": [],
+      "prizes": null,
+      "topics": [
+        "IoT",
+        "IoT Applications"
+      ],
+      "target_audience": null,
+      "additional_info": "This workshop is organized by the Department of Electronics and Communication Engineering, NSRIT Autonomous. NSRIT is NAAC Accredited with Grade A and affiliated with the Indian Society for Technical Education (ISTE).",
+      "raw_text": "NAAC Accredited with Grade A NSRIT AUTONOMOUS INDIAN SOCIETY FOR TECHNICAL EDUCATION (ISTE) DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING 3 Day Hands on Workshop on \"IoT & Its Applications\" Date : 22nd to 24th September, 2025",
+      "source_page": 3,
+      "source_file": "events_photos.pdf",
+      "processed_at": "2026-02-12T17:31:25.160716"
+    },
+    {
+      "event_name": "Cyber Security Workshop",
+      "event_type": "Workshop",
+      "department": "NSRIT Autonomous, Department of CSE, CSM & CSD",
+      "dates": {
+        "event_date": "10-10-2025",
+        "end_date": "11-10-2025",
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": null,
+      "venue": null,
+      "description": "This 2-day workshop is designed to protect systems, networks, and data from cyber threats. Participants will gain hands-on experience with Kali Linux, Nmap, and real-world hacking tools. They will learn to secure Wi-Fi networks and systems from common cyberattacks, and understand advanced techniques like MITM attacks, dark web usage, and bug bounty hunting. The workshop also includes building practical problem-solving skills through a Capture the Flag challenge.",
+      "registration_fee": "150/-",
+      "contact_persons": [],
+      "prizes": "Awards for top performers in the Capture the Flag challenge.",
+      "topics": [
+        "Kali Linux",
+        "Nmap",
+        "Real-world hacking tools",
+        "Wi-Fi network security",
+        "Protection against common cyberattacks",
+        "MITM attacks",
+        "Dark Web usage",
+        "Bug Bounty hunting",
+        "Capture the Flag challenge"
+      ],
+      "target_audience": null,
+      "additional_info": "This is a 2-day workshop organized by NSRIT Autonomous, Department of CSE, CSM & CSD, possibly in association with ACM and Computer Society of India (CSI) given the logos.",
+      "raw_text": "NSRIT AUTONOMOUS 2-DAY WORKSHOP ON CYBER SECURITY 10th & 11th Oct, 2025 Designed to protect systems, networks and data from cyber threats. Registration fee:150/- Gain hands-on experience with kali Linux, Nmap, and real-world hacking tools. Learn to secure Wi-Fi networks and systems from common cyberattacks Understand advanced techniques like MITM attacks, dark Web usage, and Bug Bounty hunting Build Practical problem-solving skill through a Capture the flag challenge with awards for top performers Department of CSE, CSM & CSD ACM CSI Scanned with OKEN Scanner",
+      "source_page": 4,
+      "source_file": "events_photos.pdf",
+      "processed_at": "2026-02-12T17:31:48.830076"
+    },
+    {
+      "event_name": "Industrial Visit to APTRANSCO",
+      "event_type": "Industrial Visit",
+      "department": "NSRIT AUTONOMOUS, Department of EEE",
+      "dates": {
+        "event_date": "18-10-2025",
+        "end_date": "18-10-2025",
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": null,
+      "venue": "APTRANSCO 400/220 KV Substation, Kalapaka, Visakhapatnam",
+      "description": "An industrial visit for students of the Department of EEE to the APTRANSCO 400/220 KV Substation, likely for practical exposure to high-voltage transmission and substation operations.",
+      "registration_fee": null,
+      "contact_persons": [],
+      "prizes": null,
+      "topics": [
+        "Electrical Power Transmission",
+        "Substation Operations",
+        "400/220 KV Systems"
+      ],
+      "target_audience": "Students of the Department of EEE",
+      "additional_info": "Hosted by NSRIT AUTONOMOUS. For more information, visit nsrit.edu.in. Affiliations include NAAC, NBA, IEEE.",
+      "raw_text": "NSRIT AUTONOMOUS INDUSTRIAL VISIT APTRANSCO 400/220 KV Substation Kalapaka, Visakhapatnam Department of EEE OCTOBER 2025 18 SATURDAY More Info: nsrit.edu.in [Social Media Icons] Scanned with OKEN Scanner [Logos: MITS, NAAC, NBA, IEEE]",
+      "source_page": 5,
+      "source_file": "events_photos.pdf",
+      "processed_at": "2026-02-12T17:32:09.488459"
+    },
+    {
+      "event_name": "INNO YUDH",
+      "event_type": "Hackathon",
+      "department": "Department of Electronics and Communication Engineering, NSRIT Nadimpalli Satyanarayana Raju Institute of Technology, Visakhapatnam",
+      "dates": {
+        "event_date": "12-12-2025",
+        "end_date": "13-12-2025",
+        "registration_deadline": null,
+        "abstract_submission": "23-11-2025"
+      },
+      "time": "24 Hours (duration)",
+      "venue": "NSRIT, Visakhapatnam",
+      "description": "A 24-hour National Level Hackathon focusing on innovation across various themes like Industry 4.0, Agriculture, Healthcare, and more.",
+      "registration_fee": null,
+      "contact_persons": [
+        {
+          "name": "Dr Konari Rajasekhar",
+          "role": "Faculty Co-ordinator",
+          "phone": "+919010663282",
+          "email": "innoyudh.info@gmail.com"
+        }
+      ],
+      "prizes": "50K+",
+      "topics": [
+        "Industry 4.0",
+        "Agriculture",
+        "Health Care",
+        "App Development",
+        "IoT",
+        "AI & ML",
+        "Block Chain",
+        "Student Innovation"
+      ],
+      "target_audience": "National Level (implied for students and developers)",
+      "additional_info": "Organized by E-CUBE and the Department of Electronics and Communication Engineering. In association with Ecomedusys Pvt Ltd. NSRIT is an Autonomous, NBA Tier 1 Accredited institute. Registration via QR code. Instagram handle: e.cube.official.",
+      "raw_text": "NSRIT NADIMPALLI SATYANARAYANA RAJU INSTITUTE OF TECHNOLOGY AUTONOMOUS VISAKHAPATNAM NBA NATIONAL BOARD OF ACCREDITATION TIER 1 ACCREDITED DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING IN ASSOCIATION WITH ECOMEDUSYS PVT LTD E-CUBE PRESENTS INNO YUDH 24 HOURS NATIONAL LEVEL HACKATHON DATE: 12th - 13th DECEMBER 2025 ABSTRACT SUBMISSION: 23rd NOVEMBER 2025 THEMES: INDUSTRY 4.0 AGRICULTURE HEALTH CARE APP DEVELOPMENT IOT AI & ML BLOCK CHAIN APP DEVELOPMENT STUDENT INNOVATION PRIZE POOL 50K+ REGISTER NOW For more info please contact: FACULTY CO-ORDINATOR Dr Konari Rajasekhar +91 90106 63282 e.cube.official innoyudh.info@gmail.com",
+      "source_page": 6,
+      "source_file": "events_photos.pdf",
+      "processed_at": "2026-02-12T17:32:37.457992"
+    },
+    {
+      "event_name": "Online Alumni Meet",
+      "event_type": "Alumni Meet",
+      "department": "NSRIT AUTONOMOUS",
+      "dates": {
+        "event_date": "20-12-2025",
+        "end_date": null,
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": "10:00 AM",
+      "venue": "Online",
+      "description": "Strengthening Our Alumni Network. We come back not just to remember the past, but to reconnect with the people who shaped our dreams.",
+      "registration_fee": null,
+      "contact_persons": [],
+      "prizes": null,
+      "topics": [
+        "Alumni networking",
+        "Reconnection"
+      ],
+      "target_audience": "Alumni of NSRIT",
+      "additional_info": "Organized by NSRIT AUTONOMOUS.",
+      "raw_text": "NSRIT AUTONOMOUS Online Alumni Meet \"Strengthening Our Alumni Network.\" 20.12.2025 10:00 AM I❤️NSRIT NSRIT NSRIT NSRIT NSRIT \"We come back not just to remember the past, but to reconnect with the people who shaped our dreams.\" Scanned with OKEN Scanner",
+      "source_page": 7,
+      "source_file": "events_photos.pdf",
+      "processed_at": "2026-02-12T17:32:56.031516"
+    },
+    {
+      "event_name": "Reverse Engineering and Implementation of AI in Designs",
+      "event_type": "Guest Lecture",
+      "department": "Department of Mechanical Engineering, NSRIT",
+      "dates": {
+        "event_date": "26-11-2025",
+        "end_date": null,
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": null,
+      "venue": "NSRIT",
+      "description": "A guest lecture focused on the principles of Reverse Engineering and the application of Artificial Intelligence in various design processes.",
+      "registration_fee": null,
+      "contact_persons": [],
+      "prizes": null,
+      "topics": [
+        "Reverse Engineering",
+        "Implementation of AI in Designs"
+      ],
+      "target_audience": null,
+      "additional_info": "In association with Edu CADD Visakhapatnam.",
+      "raw_text": "NSRIT\nDEPARTMENT OF MECHANICAL\nENGINEERING, NSRIT\nA GUEST LECTURE ON\nREVERSE ENGINEERING\nAND IMPLEMENTATION OF\nAI IN DESIGNS\nin Association with\nEdu CADD\nVISAKHAPATNAM\non 26-11-2025",
+      "source_page": 8,
+      "source_file": "events_photos.pdf",
+      "processed_at": "2026-02-12T17:33:15.483100"
+    },
+    {
+      "event_name": "Industrial Visit to AMTZ",
+      "event_type": "Industrial Visit",
+      "department": "Department of CSE(AIML), NSRIT AUTONOMOUS",
+      "dates": {
+        "event_date": "12-12-2025",
+        "end_date": "",
+        "registration_deadline": "",
+        "abstract_submission": ""
+      },
+      "time": "",
+      "venue": "AMTZ",
+      "description": "Industrial Visit gives practical experience exposure and real world experience to Technical Students.",
+      "registration_fee": "",
+      "contact_persons": [],
+      "prizes": "",
+      "topics": [
+        "Practical experience exposure",
+        "Real world experience",
+        "Computer Science and Engineering (AI&ML)",
+        "Advanced Manufacturing Technology",
+        "Medical Technology"
+      ],
+      "target_audience": "Technical Students",
+      "additional_info": "Organized by NSRIT AUTONOMOUS. For more details, visit www.nsrit.edu.in. NSRIT is AICTE approved, NAAC 'A' accredited, and NBA accredited.",
+      "raw_text": "NSRIT AUTONOMOUS DEPARTMENT OF CSE(AIML) INDUSTRIAL VISIT AMTZ Industrial Visit gives practical experience exposure and real world experience to Technical Students 12 DECEMBER 2025 www.nsrit.edu.in AICTE NAAC NBA Scanned with OKEN Scanner",
+      "source_page": 9,
+      "source_file": "events_photos.pdf",
+      "processed_at": "2026-02-12T17:33:42.150028"
+    },
+    {
+      "event_name": "Build Your Own IoT Smart Devices",
+      "event_type": "Student Development Programme",
+      "department": "Nadimpalli Satyanarayana Raju Institute of Technology (NSRIT)",
+      "dates": {
+        "event_date": "02-01-2026",
+        "end_date": "06-01-2026",
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": null,
+      "venue": "Nadimpalli Satyanarayana Raju Institute of Technology, Sontyam, Visakhapatnam, Andhra Pradesh - 531173",
+      "description": "This Student Development Programme aims to provide hands-on experience and knowledge to design Smart IoT Devices. Participants will learn practical methods for Microprocessor and Microcontroller, Computer organization and Architecture, Embedded C & Assembly Language. The program offers exposure to real-world IoT products, applications of IoT and embedded systems, and product design. It also includes guidance on writing and publishing research papers. Selected students will be offered a paid internship in NSRIT Start-UPS immediately.",
+      "registration_fee": "500 INR",
+      "contact_persons": [
+        {
+          "name": "Prof. S R N Reddy",
+          "role": "HOD-CSE, IGDTUW, Delhi",
+          "phone": null,
+          "email": null
+        },
+        {
+          "name": "Mr. Pratap Reddy",
+          "role": "Product Designer, Delhi",
+          "phone": null,
+          "email": null
+        },
+        {
+          "name": "Dr. PNE. Naveen",
+          "role": "Lead-IIE, NSRIT",
+          "phone": null,
+          "email": null
+        },
+        {
+          "name": "Dr. Rajendra Prasad",
+          "role": "Faculty-EEE, NSRIT",
+          "phone": null,
+          "email": null
+        },
+        {
+          "name": "Mrs. Phani Madhuri",
+          "role": "Faculty-ECE, NSRIT",
+          "phone": null,
+          "email": null
+        }
+      ],
+      "prizes": "Paid Internship in NSRIT Start-UPS for selected students.",
+      "topics": [
+        "Introduction to IoT and Its Architecture",
+        "Introduction to Embedded C & Assembly",
+        "Microprocessor and Microcontroller",
+        "IoT and its Applications Development",
+        "IoT Product Design and Mini Project",
+        "Computer organization and Architecture"
+      ],
+      "target_audience": "2nd year students of CSE, EEE and ME. The SDP is also open to all interested students who want to understand the concepts of theory and practical applications of IoT to solve real-world problems through their designs and deployment.",
+      "additional_info": "Organized by Nadimpalli Satyanarayana Raju Institute of Technology (NSRIT Autonomous). College Code: NSRT. Visit website: www.nsrit.edu.in.",
+      "raw_text": "STUDENT DEVELOPMENT PROGRAMME ON BUILD YOUR OWN IOT SMART DEVICES\n02-06 JANUARY 2026\nWHY YOU SHOULD ATTEND ?\nDesign your Smart IoT Devices and Participate in various Design Contests\nLearn hands-on practical methods for Microprocessor and Microcontroller, Computer organization and Architecture, Embedded C & Assembly Language.\nGet practical exposure to IOT and design 20 real-world Products.\nUnderstand real-world applications of IoT and embedded systems and its Product Designs.\nWrite a your own Research Paper and Publish\nSelected Students will Gets The Paid Internship in NSRIT Start-UPS immediately\nPROGRAMME AIMS\nIntroduction to IoT and Its Architecture\nIntroduction to Embedded C & Assembly\nMicroprocessor and Microcontroller\nIoT and its Applications Development\nIoT Product Design and Mini Project\nWHO SHOULD ATTEND\nstudents of 2nd year of CSE, EEE and ME. The SDP is open to all interested students who wants to understand the concepts of theory and its practical's together and use the same skills to solve the real world problems through their designs and deploy.\nRESOURCE PERSONS\nProf. S R N Reddy- HOD-CSE, IGDTUW, Delhi\nMr. Pratap Reddy- Product Designer, Delhi\nDr. PNE. Naveen-Lead-IIE, NSRIT\nDr. Rajendra Prasad- Faculty-EEE, NSRIT\nMrs. Phani Madhuri- Faculty-ECE, NSRIT\nREGISTRATION FEE 500 ₹\nNadimpalli Satyanarayana Raju Institute of Technology Sontyam, Visakhapatnam, Andhra Pradesh - 531173\nNSRIT AUTONOMOUS COLLEGE CODE NSRT\nVisit Our Website www.nsrit.edu.in\nScanned with OKEN Scanner",
+      "source_page": 10,
+      "source_file": "events_photos.pdf",
+      "processed_at": "2026-02-12T17:34:16.514192"
+    },
+    {
+      "event_name": "Industrial Visit to Hinduja National Power Corporation Limited",
+      "event_type": "Industrial Visit",
+      "department": "Department of Electrical and Electronics Engineering",
+      "dates": {
+        "event_date": "29-01-2026",
+        "end_date": null,
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": null,
+      "venue": "Hinduja National Power Corporation Limited, Palavalasa Village, Padagantayada Mandal, Visakhapatnam - 530031. (2 x 520 MW Vizag Thermal Power Station)",
+      "description": "An industrial visit organized by the Department of Electrical and Electronics Engineering to the Hinduja National Power Corporation Limited's 2 x 520 MW Vizag Thermal Power Station. The visit aims to provide students with practical exposure to thermal power generation and industrial operations.",
+      "registration_fee": null,
+      "contact_persons": [],
+      "prizes": null,
+      "topics": [
+        "Thermal Power Generation",
+        "Power Plant Operations"
+      ],
+      "target_audience": "Students of Electrical and Electronics Engineering",
+      "additional_info": "Organized by Nadimpalli Satyanarayana Raju Institute of Technology (NSRIT Autonomous) and IEEE Student Branch NSRIT (STB16441). NSRIT was established in 2008.",
+      "raw_text": "Estd. 2008 NSRIT AUTONOMOUS IEEE STB16441 STUDENT BRANCH NSRIT INDUSTRIAL VIST TO HINDUJA NATIONAL POWER CORPORATION LIMITED Palavalasa Village, Padagantayada Mandal, Visakhapatnam - 530031. 2 x 520 MW Vizag Thermal Power Station Organized by Department of Electrical and Electronics Engineering 29TH January 2026 Nadimpalli Satyanarayana Raju Institute of Technology, Visakhapatnam Scanned with OKEN Scanner",
+      "source_page": 11,
+      "source_file": "events_photos.pdf",
+      "processed_at": "2026-02-12T17:34:42.144151"
+    },
+    {
+      "event_name": "National Road Safety Month, 2026",
+      "event_type": "Awareness Campaign",
+      "department": "N.S.R.I.T.",
+      "dates": {
+        "event_date": "01-01-2026",
+        "end_date": "31-01-2026",
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": null,
+      "venue": null,
+      "description": "A month-long awareness campaign focused on promoting national road safety. The initiative, also known as 'Road Safety Campaign 2026' (सड़क सुरक्षा अभियान 2026), aims to encourage safe practices and reduce road accidents.",
+      "registration_fee": null,
+      "contact_persons": [],
+      "prizes": null,
+      "topics": [
+        "Road Safety",
+        "Traffic Rules",
+        "Safe Driving Practices",
+        "Road Signs Awareness"
+      ],
+      "target_audience": "General Public, Road Users, Drivers, Pedestrians",
+      "additional_info": "The event is affiliated with www.nsrit.edu.in, which likely serves as an organizing or supporting institution. The slogan is 'भारत करे, सुरक्षित रहे' (India makes it safe, stays safe).",
+      "raw_text": "NATIONAL ROAD SAFETY MONTH, 2026 1-31 January सड़क सुरक्षा अभियान 2026 भारत करे, सुरक्षित रहे www.nsrit.edu.in ROAD SAFETY PLEASE SLOW DOWN THINK ROAD SAFETY LEFT",
+      "source_page": 12,
+      "source_file": "events_photos.pdf",
+      "processed_at": "2026-02-12T17:35:04.407760"
+    },
+    {
+      "event_name": "VIZAG TRI-MOBILITY CHALLENGE 2K26: 24 HRS HACKATHON",
+      "event_type": "Hackathon, Contest, Innovation Challenge",
+      "department": "Department of Electrical and Electronics Engineering, Nadimpalli Satyanarayana Raju Institute of Technology (NSRIT)",
+      "dates": {
+        "event_date": "20-02-2026",
+        "end_date": "21-02-2026",
+        "registration_deadline": "",
+        "abstract_submission": ""
+      },
+      "time": "24 Hours",
+      "venue": "Nadimpalli Satyanarayana Raju Institute of Technology (NSRIT)",
+      "description": "An innovation challenge and 24-hour hackathon, part of the Vizag Tri-Mobility Challenge 2K26, featuring contests in Electric Vehicles (EV), Drones, Hardware Innovation, Software Innovation, and general Student Innovation. Participants will compete for prizes worth ₹1,80,000.",
+      "registration_fee": "Not mentioned",
+      "contact_persons": [
+        {
+          "name": "Dr. R. S. R. KRISHNAM NAIDU",
+          "role": "Event Chair / Prof. & Head",
+          "phone": "8074093388",
+          "email": "hodeee@nsrit.edu.in"
+        },
+        {
+          "name": "K.Guna sekhar",
+          "role": "Student Co-ordinator (III EEE)",
+          "phone": "+919640230881",
+          "email": ""
+        },
+        {
+          "name": "Dr. S. Rajendra Prasad",
+          "role": "Faculty Co-ordinator",
+          "phone": "+919515434340",
+          "email": ""
+        },
+        {
+          "name": "Ms. K. Priyanka",
+          "role": "Faculty Co-ordinator",
+          "phone": "+919949323747",
+          "email": ""
+        },
+        {
+          "name": "Mr. K.M.M. Tarakesh",
+          "role": "Faculty Co-ordinator",
+          "phone": "+918985880153",
+          "email": ""
+        },
+        {
+          "name": "Ms. S. Yamini",
+          "role": "Faculty Co-ordinator",
+          "phone": "+917702115918",
+          "email": ""
+        }
+      ],
+      "prizes": "Worth ₹1,80,000",
+      "topics": [
+        "EV - Contest",
+        "Drones Contest",
+        "Hardware Innovation",
+        "Software Innovation",
+        "Student Innovation"
+      ],
+      "target_audience": "Students, particularly those interested in Electrical and Electronics Engineering and interdisciplinary innovation.",
+      "additional_info": "Organized by Nadimpalli Satyanarayana Raju Institute of Technology (NSRIT) in association with IEEE, Morris Garages, National Board Accreditation, and Institution's Innovation Council (Ministry of IDIP initiative). The Department of Electrical & Electronics Engineering is accredited by NBA under Tier I. For more details, visit www.nsrit.edu.in. Follow @nsrit_eee_club on Instagram. A QR code is provided for registration.",
+      "raw_text": "NSRIT NATIONAL BOARD ACCREDITATION INSTITUTION'S INNOVATION COUNCIL (Ministry of IDIP initiative) IEEE MG MORRIS GARAGES NADIMPALLI SATYANARAYANA RAJU INSTITUTE OF TECHNOLOGY DEPARTMENT OF ELECTRICAL AND ELECTRONICS ENGINEERING VIZAG TRI-MOBILITY CHALLENGE 2K26 24 HRS HACKATHON FEBRUARY-20,21 PRIZE WORTH 1,80,000 EV - Contest Drones Contest Hardware Innovation Software Innovation Student Innovation EVENT CHAIR Dr. R. S. R. KRISHNAM NAIDU, PROF. & HEAD Voice: 80740 93388 | Email: hodeee@nsrit.edu.in STUDENT CO-ORDINATOR K.Guna sekhar (III EEE) (+91 96402 30881) FACULTY CO-ORDINATORS Dr. S. Rajendra Prasad (+91 95154 34340) Ms. K. Priyanka (+91 99493 23747) Mr. K.M.M. Tarakesh (+91 89858 80153) Ms. S. Yamini (+91 77021 15918) SCAN FOR REGISTRATION @nsrit_eee_club Visit us: www.nsrit.edu.in | Department of Electrical & Electronics Engineering (Accredited by NBA under Tier I) | Email ID: hodeee@nsrit.edu.in Scanned with OKEN Scanner",
+      "source_page": 13,
+      "source_file": "events_photos.pdf",
+      "processed_at": "2026-02-12T17:35:44.949438"
+    },
+    {
+      "event_name": "Industrial Visit: Water Treatment Plant",
+      "event_type": "Industrial Visit",
+      "department": "Department of Civil Engineering, NSRIT Autonomous",
+      "dates": {
+        "event_date": "05-03-2025",
+        "end_date": null,
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": null,
+      "venue": "Narava, Visakhapatnam, Andhra Pradesh",
+      "description": "Water treatment is a crucial aspect of civil engineering, as it ensures the safe and sustainable management of water resources.",
+      "registration_fee": null,
+      "contact_persons": [],
+      "prizes": null,
+      "topics": [
+        "Water Treatment",
+        "Civil Engineering",
+        "Sustainable Management of Water Resources"
+      ],
+      "target_audience": "Civil Engineering students/professionals",
+      "additional_info": "Website: www.nsrit.edu.in",
+      "raw_text": "NSRIT AUTONOMOUS LEARN MORE INDUSTRIAL VISIT WATER TREATMENT PLANT NARAVA, VISAKHAPATNAM, ANDHRA PRADESH Water treatment is a crucial aspect of civil engineering, as it ensures the safe and sustainable management of water resources. DEPARTMENT OF CIVIL ENGINEERING 05 MARCH 2025 www.nsrit.edu.in",
+      "source_file": "event_photos_folder\\events_photos.pdf",
+      "source_page": 1,
+      "file_type": "pdf",
+      "processed_at": "2026-02-12T18:15:41.250298"
+    },
+    {
+      "event_name": "TECHNIMBLE 2025",
+      "event_type": "Technical Fest",
+      "department": "NADIMPALLI SATYANARAYANA RAJU INSTITUTE OF TECHNOLOGY (NSRIT AUTONOMOUS)",
+      "dates": {
+        "event_date": "01-03-2025",
+        "end_date": null,
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": null,
+      "venue": "NSRIT, Sontyam, Pendhurthi-Anandapuram Highway, Visakhapatnam- 531173",
+      "description": "TECHNIMBLE 2025 is a technical fest organized by NSRIT, offering a platform for students to showcase their skills and knowledge through various events like Poster Presentation, Paper Presentation, Project Expo, Technical Quiz, Modeling & 3D Printing, Technical Treasure Hunt, Bridge Bust, B-Quiz, Ad-Mad, and Startup Idea competition. Participants stand a chance to win exciting prizes.",
+      "registration_fee": "INR 200 per head per event",
+      "contact_persons": [
+        {
+          "name": "Dr.A.S.S.V. Ram Kumar",
+          "role": "Convener",
+          "phone": null,
+          "email": null
+        },
+        {
+          "name": "Dr.V. Sreerama Murthy",
+          "role": "Convener",
+          "phone": null,
+          "email": null
+        },
+        {
+          "name": "Sri. N. Viswanadha Reddy",
+          "role": "Coordinator",
+          "phone": null,
+          "email": null
+        },
+        {
+          "name": "A.Suraj Kumar",
+          "role": "Faculty Coordinator (CSE)",
+          "phone": "9866041929",
+          "email": null
+        },
+        {
+          "name": "K.Ramanaji",
+          "role": "Faculty Coordinator (ECE)",
+          "phone": "9866418529",
+          "email": null
+        },
+        {
+          "name": "M.Swathi",
+          "role": "Faculty Coordinator (EEE)",
+          "phone": "8500900559",
+          "email": null
+        },
+        {
+          "name": "K.Ram Prasad",
+          "role": "Faculty Coordinator (MECH)",
+          "phone": "7569323977",
+          "email": null
+        },
+        {
+          "name": "G.Chanikya",
+          "role": "Faculty Coordinator (CIVIL)",
+          "phone": "7997263378",
+          "email": null
+        },
+        {
+          "name": "T.Narayan Rao",
+          "role": "Faculty Coordinator (MBA)",
+          "phone": "8143911386",
+          "email": null
+        },
+        {
+          "name": "DR.T.V.S. Sri Ram",
+          "role": "Faculty Coordinator (MCA)",
+          "phone": "9440240968",
+          "email": null
+        },
+        {
+          "name": "CH.Hari Kiran",
+          "role": "Student Coordinator (CSE)",
+          "phone": "9491645242",
+          "email": null
+        },
+        {
+          "name": "S.S.Datta",
+          "role": "Student Coordinator (ECE)",
+          "phone": "9515071232",
+          "email": null
+        },
+        {
+          "name": "S.Yogendhra",
+          "role": "Student Coordinator (EEE)",
+          "phone": "6301243178",
+          "email": null
+        },
+        {
+          "name": "V.Madhav",
+          "role": "Student Coordinator (MECH)",
+          "phone": "9392022184",
+          "email": null
+        },
+        {
+          "name": "K Praveen Kumar",
+          "role": "Student Coordinator (CIVIL)",
+          "phone": "7032518818",
+          "email": null
+        },
+        {
+          "name": "R.Monika",
+          "role": "Student Coordinator (MBA)",
+          "phone": "9440761843",
+          "email": null
+        },
+        {
+          "name": "V.Rajesh",
+          "role": "Student Coordinator (MCA)",
+          "phone": "9110308571",
+          "email": null
+        }
+      ],
+      "prizes": "Exciting Prizes",
+      "topics": [
+        "Poster Presentation",
+        "Paper Presentation",
+        "Project Expo",
+        "Technical Quiz",
+        "Modeling & 3D Printing",
+        "Technical Treasure Hunt",
+        "Bridge Bust",
+        "B-Quiz",
+        "AD-Mad",
+        "Startup Idea"
+      ],
+      "target_audience": "Students from various engineering and management disciplines including CSE/CSD/CSM, ECE, MECH, EEE, CIVIL, MBA, and MCA.",
+      "additional_info": "Registration can be done by scanning the provided QR code.",
+      "raw_text": "NADIMPALLI SATYANARAYANA RAJU INSTITUTE OF TECHNOLOGY\nSONTYAM, PENDHURTHI-ANANDAPURAM HIGHWAY, VISAKHAPATNAM- 531173\nNSRIT AUTONOMOUS\nMAR 01st TECHNIMBLE 2025\nCSE/CSD/CSM | ECE | MECH | EEE | CIVIL | MBA\nPOSTER PRESENTATION | POSTER PRESENTATION | POSTER PRESENTATION | POSTER PRESENTATION | POSTER PRESENTATION | PAPER PRESENTATION\nPAPER PRESENTATION | PAPER PRESENTATION | PAPER PRESENTATION | PAPER PRESENTATION | BRIDGE BUST | B-QUIZ\nPROJECT EXPO | PROJECT EXPO | MODELING & 3D PRINTING | PROJECT EXPO | PROJECT EXPO | AD-MAD\nTECHNICAL QUIZ | TECHNICAL TREASURE HUNT | STARTUP IDEA\nREGISTRATION FEE 200/- PER HEAD PER EVENT\nWIN EXCITING PRIZES! Register Here [QR Code]\n\nFACULTY COORDINATES:\nA.Suraj Kumar (CSE) 9866041929\nK.Ramanaji (ECE) 9866418529\nM.Swathi (EEE) 8500900559\nK.Ram Prasad (MECH) 7569323977\nG.Chanikya (CIVIL) 7997263378\nT.Narayan Rao (MBA) 8143911386\nDR.T.V.S. Sri Ram (MCA) 9440240968\n\nSTUDENT COORDINATES:\nCH.Hari Kiran (CSE) 9491645242\nS.S.Datta (ECE) 9515071232\nS.Yogendhra (EEE) 6301243178\nV.Madhav (MECH) 9392022184\nK Praveen Kumar (CIVIL) 7032518818\nR.Monika (MBA) 9440761843\nV.Rajesh (MCA) 9110308571\n\nConveners: Dr.A.S.S.V. Ram Kumar, Dr.V. Sreerama Murthy\nCoordinator: Sri. N. Viswanadha Reddy\nScanned with OKEN Scanner",
+      "source_file": "event_photos_folder\\events_photos.pdf",
+      "source_page": 2,
+      "file_type": "pdf",
+      "processed_at": "2026-02-12T18:16:24.602174"
+    },
+    {
+      "event_name": "3 Day Hands on Workshop on IoT & Its Applications",
+      "event_type": "Workshop",
+      "department": "Department of Electronics and Communication Engineering, NSRIT Autonomous (in association with Indian Society for Technical Education - ISTE)",
+      "dates": {
+        "event_date": "22-09-2025",
+        "end_date": "24-09-2025",
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": null,
+      "venue": null,
+      "description": "A 3-day hands-on workshop focused on the Internet of Things (IoT) and its various applications, organized by the Department of Electronics and Communication Engineering.",
+      "registration_fee": null,
+      "contact_persons": [],
+      "prizes": null,
+      "topics": [
+        "IoT",
+        "IoT Applications"
+      ],
+      "target_audience": null,
+      "additional_info": "Duration: 3 Days. NSRIT is an Autonomous institution, accredited with Grade A by NAAC.",
+      "raw_text": "NAAC Accredited with Grade A, NSRIT AUTONOMOUS, Indian Society for Technical Education (ISTE), DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING, 3 Day Hands on Workshop on \"IoT & Its Applications\", Date: 22nd to 24th September, 2025.",
+      "source_file": "event_photos_folder\\events_photos.pdf",
+      "source_page": 3,
+      "file_type": "pdf",
+      "processed_at": "2026-02-12T18:16:50.258038"
+    },
+    {
+      "event_name": "Cyber Security",
+      "event_type": "Workshop",
+      "department": "NSRIT AUTONOMOUS, Department of CSE, CSM & CSD",
+      "dates": {
+        "event_date": "10-10-2025",
+        "end_date": "11-10-2025",
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": null,
+      "venue": null,
+      "description": "Designed to protect systems, networks and data from cyber threats.",
+      "registration_fee": "150/-",
+      "contact_persons": [],
+      "prizes": "Awards for top performers in the Capture the Flag challenge.",
+      "topics": [
+        "Hands-on experience with Kali Linux, Nmap, and real-world hacking tools",
+        "Securing Wi-Fi networks and systems from common cyberattacks",
+        "Understanding advanced techniques like MITM attacks, dark Web usage, and Bug Bounty hunting",
+        "Building practical problem-solving skills through a Capture the Flag challenge"
+      ],
+      "target_audience": null,
+      "additional_info": "2-day workshop. Organized in association with ACM and Computer Society of India (CSI).",
+      "raw_text": "NSRIT AUTONOMOUS 2-DAY WORKSHOP ON CYBER SECURITY 10th & 11th Oct, 2025 Designed to protect systems, networks and data from cyber threats. Gain hands-on experience with Kali Linux, Nmap, and real-world hacking tools. Learn to secure Wi-Fi networks and systems from common cyberattacks Understand advanced techniques like MITM attacks, dark Web usage, and Bug Bounty hunting Build Practical problem-solving skill through a Capture the flag challenge with awards for top performers Registration fee:150/- Department of CSE, CSM & CSD ACM CSI",
+      "source_file": "event_photos_folder\\events_photos.pdf",
+      "source_page": 4,
+      "file_type": "pdf",
+      "processed_at": "2026-02-12T18:17:16.904430"
+    },
+    {
+      "event_name": "Industrial Visit to APTRANSCO",
+      "event_type": "Industrial Visit",
+      "department": "Department of EEE, NSRIT Autonomous",
+      "dates": {
+        "event_date": "18-10-2025",
+        "end_date": null,
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": null,
+      "venue": "APTRANSCO 400/220 KV Substation, Kalapaka, Visakhapatnam",
+      "description": "An industrial visit organized by the Department of EEE, NSRIT Autonomous, to the APTRANSCO 400/220 KV Substation. This visit is intended to provide practical exposure and insights into the operations of a 400/220 KV power substation.",
+      "registration_fee": null,
+      "contact_persons": [],
+      "prizes": null,
+      "topics": [
+        "Power Transmission",
+        "Substation Operations",
+        "Electrical Grid Infrastructure",
+        "Electrical Engineering"
+      ],
+      "target_audience": "Students of the Department of EEE",
+      "additional_info": "More information can be found at nsrit.edu.in. NSRIT Autonomous is affiliated with NAAC, NBA, and IEEE.",
+      "raw_text": "NSRIT AUTONOMOUS\nINDUSTRIAL VISIT\nAPTRANSCO\n400/220 KV Substation\nKalapaka, Visakhapatnam\nDepartment of EEE\nOCTOBER 2025\n18\nSATURDAY\nMore Info: nsrit.edu.in\nScanned with OKEN Scanner",
+      "source_file": "event_photos_folder\\events_photos.pdf",
+      "source_page": 5,
+      "file_type": "pdf",
+      "processed_at": "2026-02-12T18:17:41.837986"
+    },
+    {
+      "event_name": "INNO YUDH - 24 Hours National Level Hackathon",
+      "event_type": "Hackathon",
+      "department": "Department of Electronics and Communication Engineering, NSRIT (Nadimpalli Satyanarayana Raju Institute of Technology)",
+      "dates": {
+        "event_date": "12-12-2025",
+        "end_date": "13-12-2025",
+        "registration_deadline": null,
+        "abstract_submission": "23-11-2025"
+      },
+      "time": "24 Hours (duration)",
+      "venue": "NSRIT (Nadimpalli Satyanarayana Raju Institute of Technology), Visakhapatnam",
+      "description": "A 24-hour national level hackathon named 'INNO YUDH' designed to promote innovation, covering various themes like Industry 4.0, Agriculture, Healthcare, IoT, AI & ML, Blockchain, App Development, and Student Innovation.",
+      "registration_fee": null,
+      "contact_persons": [
+        {
+          "name": "Dr Konari Rajasekhar",
+          "role": "Faculty Co-ordinator",
+          "phone": "+91 90106 63282",
+          "email": "innoyudh.info@gmail.com"
+        }
+      ],
+      "prizes": "50K+ (Prize Pool)",
+      "topics": [
+        "INDUSTRY 4.0",
+        "AGRICULTURE",
+        "HEALTH CARE",
+        "APP DEVELOPMENT",
+        "IOT",
+        "AI & ML",
+        "BLOCK CHAIN",
+        "STUDENT INNOVATION"
+      ],
+      "target_audience": "National level participants / Students",
+      "additional_info": "Organized by E-CUBE. In association with ECOMEDUSYS PVT LTD. NSRIT is an Autonomous and NBA Tier 1 Accredited institute. Register via QR code. Instagram handle: e.cube.official.",
+      "raw_text": "NSRIT Autonomous NADIMPALLI SATYANARAYANA RAJU INSTITUTE OF TECHNOLOGY VISAKHAPATNAM NBA NATIONAL BOARD OF ACCREDITATION TIER 1 ACCREDITED DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING IN ASSOCIATION WITH ECOMEDUSYS PVT LTD E-CUBE PRESENTS INNO YUDH 24 HOURS NATIONAL LEVEL HACKATHON DATE: 12th - 13th DECEMBER 2025 THEMES: > INDUSTRY 4.0 > AGRICULTURE > HEALTH CARE > APP DEVELOPMENT > IOT > AI & ML > BLOCK CHAIN > APP DEVELOPMENT > STUDENT INNOVATION PRIZE POOL 50K+ ABSTRACT SUBMISSION: 23rd NOVEMBER 2025 REGISTER NOW for more info please contact: FACULTY CO-ORDINATOR Dr Konari Rajasekhar +91 90106 63282 e.cube.official innoyudh.info@gmail.com",
+      "source_file": "event_photos_folder\\events_photos.pdf",
+      "source_page": 6,
+      "file_type": "pdf",
+      "processed_at": "2026-02-12T18:18:09.925240"
+    },
+    {
+      "event_name": "Online Alumni Meet",
+      "event_type": "Alumni Meet",
+      "department": "NSRIT AUTONOMOUS",
+      "dates": {
+        "event_date": "20-12-2025",
+        "end_date": null,
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": "10:00 AM",
+      "venue": "Online",
+      "description": "Strengthening Our Alumni Network. The purpose is to come back not just to remember the past, but to reconnect with the people who shaped our dreams.",
+      "registration_fee": null,
+      "contact_persons": [],
+      "prizes": null,
+      "topics": [
+        "Alumni Networking",
+        "Reconnecting with peers",
+        "Reminiscing past experiences"
+      ],
+      "target_audience": "Alumni of NSRIT",
+      "additional_info": "NSRIT is an autonomous institution.",
+      "raw_text": "NSRIT AUTONOMOUS Online Alumni Meet \"Strengthening Our Alumni Network.\" 20.12.2025 10:00 AM I ♥ NSRIT \"We come back not just to remember the past, but to reconnect with the people who shaped our dreams.\" Scanned with OKEN Scanner",
+      "source_file": "event_photos_folder\\events_photos.pdf",
+      "source_page": 7,
+      "file_type": "pdf",
+      "processed_at": "2026-02-12T18:18:28.730391"
+    },
+    {
+      "event_name": "A Guest Lecture on Reverse Engineering and Implementation of AI in Designs",
+      "event_type": "Guest Lecture",
+      "department": "Department of Mechanical Engineering, NSRIT",
+      "dates": {
+        "event_date": "26-11-2025",
+        "end_date": null,
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": null,
+      "venue": "NSRIT",
+      "description": "A guest lecture focusing on the concepts of Reverse Engineering and the implementation of Artificial Intelligence in design processes.",
+      "registration_fee": null,
+      "contact_persons": [],
+      "prizes": null,
+      "topics": [
+        "Reverse Engineering",
+        "Implementation of AI in Designs"
+      ],
+      "target_audience": null,
+      "additional_info": "In association with EduCADD, Visakhapatnam",
+      "raw_text": "NSRIT DEPARTMENT OF MECHANICAL ENGINEERING, NSRIT A GUEST LECTURE ON REVERSE ENGINEERING AND IMPLEMENTATION OF AI IN DESIGNS in Association with EduCADD VISAKHAPATNAM on 26-11-2025",
+      "source_file": "event_photos_folder\\events_photos.pdf",
+      "source_page": 8,
+      "file_type": "pdf",
+      "processed_at": "2026-02-12T18:18:47.706573"
+    },
+    {
+      "event_name": "INDUSTRIAL VISIT",
+      "event_type": "Industrial Visit",
+      "department": "Department of CSE(AIML), NSRIT AUTONOMOUS",
+      "dates": {
+        "event_date": "12-12-2025",
+        "end_date": "12-12-2025",
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": null,
+      "venue": "AMTZ",
+      "description": "Industrial Visit gives practical experience exposure and real-world experience to Technical Students.",
+      "registration_fee": null,
+      "contact_persons": [],
+      "prizes": null,
+      "topics": [],
+      "target_audience": "Technical Students",
+      "additional_info": "Website: www.nsrit.edu.in",
+      "raw_text": "NSRIT AUTONOMOUS\nDEPARTMENT OF CSE(AIML)\nINDUSTRIAL VISIT\nAMTZ\nIndustrial Visit gives practical experience exposure and real world experience to Technical Students\n12 DECEMBER 2025\nwww.nsrit.edu.in\nScanned with OKEN Scanner",
+      "source_file": "event_photos_folder\\events_photos.pdf",
+      "source_page": 9,
+      "file_type": "pdf",
+      "processed_at": "2026-02-12T18:19:10.645662"
+    },
+    {
+      "event_name": "STUDENT DEVELOPMENT PROGRAMME ON BUILD YOUR OWN IOT SMART DEVICES",
+      "event_type": "Student Development Programme",
+      "department": "Nadimapalli Satyanarayana Raju Institute of Technology (NSRIT)",
+      "dates": {
+        "event_date": "02-01-2026",
+        "end_date": "06-01-2026",
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": null,
+      "venue": "Nadimapalli Satyanarayana Raju Institute of Technology, Sontyam, Visakhapatnam, Andhra Pradesh - 531173",
+      "description": "This Student Development Programme (SDP) aims to provide hands-on practical methods for designing Smart IoT Devices. Participants will learn about Microprocessor and Microcontroller, Computer Organization and Architecture, Embedded C & Assembly Language. The program offers practical exposure to IoT, focusing on designing real-world products and understanding applications of IoT and embedded systems. It also includes guidance on product design and mini-projects. Attendees will have the opportunity to write their own research papers and publish them. Selected students may also receive a paid internship at NSRIT Start-UPS immediately.",
+      "registration_fee": "500 INR",
+      "contact_persons": [],
+      "prizes": "Paid Internship in NSRIT Start-UPS for selected students",
+      "topics": [
+        "Introduction to IoT and Its Architecture",
+        "Introduction to Embedded C & Assembly",
+        "Microprocessor and Microcontroller",
+        "IoT and its Applications Development",
+        "IoT Product Design and Mini Project",
+        "Design of Smart IoT Devices",
+        "Computer Organization and Architecture",
+        "Real-world applications of IoT and embedded systems"
+      ],
+      "target_audience": "2nd year students of CSE, EEE, and ME. The SDP is open to all interested students who want to understand the concepts of theory and its practicals, and use these skills to solve real-world problems through design and deployment.",
+      "additional_info": "Website: www.nsrit.edu.in. College Code: NSRT. Resource Persons: Prof. S R N Reddy (HOD-CSE, IGDTUW, Delhi), Mr. Pratap Reddy (Product Designer, Delhi), Dr. PNE. Naveen (Lead-IIE, NSRIT), Dr. Rajendra Prasad (Faculty-EEE, NSRIT), Mrs. Phani Madhuri (Faculty-ECE, NSRIT).",
+      "raw_text": "STUDENT DEVELOPMENT PROGRAMME ON BUILD YOUR OWN IOT SMART DEVICES 02-06 JANUARY 2026 WHY YOU SHOULD ATTEND ? Design your Smart IoT Devices and Participate in various Design Contests Learn hands-on practical methods for Microprocessor and Microcontroller, Computer organization and Architecture, Embedded C & Assembly Language. Get practical exposure to IoT and design 20 real-world Products. Understand real-world applications of IoT and embedded systems and its Product Designs. Write a your own Research Paper and Publish Selected Students will Gets The Paid Internship in NSRIT Start-UPS immediately PROGRAMME AIMS Introduction to IoT and Its Architecture Introduction to Embedded C & Assembly Microprocessor and Microcontroller IoT and its Applications Development IoT Product Design and Mini Project WHO SHOULD ATTEND students of 2nd year of CSE, EEE and ME. The SDP is open to all interested students who wants to understand the concepts of theory and its practical's together and use the same skills to solve the real world problems through their designs and deploy. Nadimpalli Satyanarayana Raju Institute of Technology Sontyam, Visakhapatnam, Andhra Pradesh - 531173 NSRIT AUTONOMOUS COLLEGE CODE NSRT Visit Our Website www.nsrit.edu.in Scanned with OKEN Scanner RESOURCE PERSONS Prof. S R N Reddy- HOD-CSE, IGDTUW, Delhi Mr. Pratap Reddy- Product Designer, Delhi Dr. PNE. Naveen-Lead-IIE, NSRIT Dr. Rajendra Prasad- Faculty-EEE, NSRIT Mrs. Phani Madhuri- Faculty-ECE, NSRIT REGISTRATION FEE 500 ₹",
+      "source_file": "event_photos_folder\\events_photos.pdf",
+      "source_page": 10,
+      "file_type": "pdf",
+      "processed_at": "2026-02-12T18:19:39.672992"
+    },
+    {
+      "event_name": "Industrial Visit to Hinduja National Power Corporation Limited",
+      "event_type": "Industrial Visit",
+      "department": "Department of Electrical and Electronics Engineering, Nadimapalli Satyanarayana Raju Institute of Technology (NSRIT) Autonomous, IEEE Student Branch NSRIT (STB16441)",
+      "dates": {
+        "event_date": "29-01-2026",
+        "end_date": null,
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": null,
+      "venue": "Hinduja National Power Corporation Limited, 2 × 520 MW Vizag Thermal Power Station, Palavalasa Village, Padagantayada Mandal, Visakhapatnam - 530031.",
+      "description": "An industrial visit organized by the Department of Electrical and Electronics Engineering to Hinduja National Power Corporation Limited (2 × 520 MW Vizag Thermal Power Station).",
+      "registration_fee": null,
+      "contact_persons": [],
+      "prizes": null,
+      "topics": [
+        "Power Generation",
+        "Thermal Power Plant Operations",
+        "Electrical Engineering in Industry"
+      ],
+      "target_audience": "Students of Electrical and Electronics Engineering",
+      "additional_info": "Organized by Nadimapalli Satyanarayana Raju Institute of Technology (NSRIT) Autonomous, in association with IEEE Student Branch NSRIT.",
+      "raw_text": "Estd. 2008 NSRIT AUTONOMOUS IEEE STB16441 STUDENT BRANCH NSRIT INDUSTRIAL VIST TO HINDUJA NATIONAL POWER CORPORATION LIMITED HNP Palavalasa Village, Padagantayada Mandal, Visakhapatnam - 530031. 2 × 520 MW Vizag Thermal Power Station Organized by Department of Electrical and Electronics Engineering 29TH January 2026 Nadimapalli Satyanarayana Raju Institute of Technology, Visakhapatnam Scanned with OKEN Scanner",
+      "source_file": "event_photos_folder\\events_photos.pdf",
+      "source_page": 11,
+      "file_type": "pdf",
+      "processed_at": "2026-02-12T18:20:01.836821"
+    },
+    {
+      "event_name": "National Road Safety Month",
+      "event_type": "Awareness Campaign",
+      "department": "NSRIT",
+      "dates": {
+        "event_date": "01-01-2026",
+        "end_date": "31-01-2026",
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": null,
+      "venue": null,
+      "description": "A month-long campaign dedicated to promoting road safety awareness. The event is also referred to as 'सड़क सुरक्षा अभियान 2026' (Road Safety Campaign 2026) with the slogan 'भारत करे, सुरक्षित चले' (India walks, walks safely).",
+      "registration_fee": null,
+      "contact_persons": [],
+      "prizes": null,
+      "topics": [
+        "Road Safety Awareness",
+        "Traffic Rules",
+        "Safe Driving Practices",
+        "Pedestrian Safety"
+      ],
+      "target_audience": "General Public, Drivers, Pedestrians (implied)",
+      "additional_info": "For more information, visit www.nsrit.edu.in",
+      "raw_text": "NATIONAL ROAD SAFETY MONTH, 2026 1-31 January सड़क सुरक्षा अभियान 2026 भारत करे, सुरक्षित चले www.nsrit.edu.in ROAD SAFETY PLEASE SLOW DOWN THINK ROAD SAFETY LEFT STOP",
+      "source_file": "event_photos_folder\\events_photos.pdf",
+      "source_page": 12,
+      "file_type": "pdf",
+      "processed_at": "2026-02-12T18:20:24.230674"
+    },
+    {
+      "event_name": "VIZAG TRI-MOBILITY CHALLENGE 2K26 - 24 HRS HACKATHON",
+      "event_type": "Competition, Hackathon",
+      "department": "Department of Electrical and Electronics Engineering, Nadimpalli Satyanarayana Raju Institute of Technology (NSRIT)",
+      "dates": {
+        "event_date": "20-02-2026",
+        "end_date": "21-02-2026",
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": "24 hours (Hackathon duration)",
+      "venue": null,
+      "description": "A multi-domain challenge and a 24-hour hackathon focusing on innovation in mobility, specifically covering contests in Electric Vehicles, Drones, Hardware Innovation, Software Innovation, and general Student Innovation.",
+      "registration_fee": null,
+      "contact_persons": [
+        {
+          "name": "Dr. R. S. R. KRISHNAM NAIDU",
+          "role": "Event Chair, PROF. & HEAD",
+          "phone": "+918074093388",
+          "email": "hodeee@nsrit.edu.in"
+        },
+        {
+          "name": "K.Guna sekhar",
+          "role": "Student Co-ordinator (III EEE)",
+          "phone": "+919640230881",
+          "email": null
+        },
+        {
+          "name": "Dr. S. Rajendra Prasad",
+          "role": "Faculty Co-ordinator",
+          "phone": "+919515434340",
+          "email": null
+        },
+        {
+          "name": "Ms. K. Priyanka",
+          "role": "Faculty Co-ordinator",
+          "phone": "+919949323747",
+          "email": null
+        },
+        {
+          "name": "Mr. K.M.M. Tarakesh",
+          "role": "Faculty Co-ordinator",
+          "phone": "+918985880153",
+          "email": null
+        },
+        {
+          "name": "Ms. S. Yamini",
+          "role": "Faculty Co-ordinator",
+          "phone": "+917702115918",
+          "email": null
+        }
+      ],
+      "prizes": "Worth 1,80,000 (INR)",
+      "topics": [
+        "EV - Contest",
+        "Drones Contest",
+        "Hardware Innovation",
+        "Software Innovation",
+        "Student Innovation"
+      ],
+      "target_audience": "Students, particularly those interested in Electrical and Electronics Engineering, innovation, electric vehicles, and drones.",
+      "additional_info": "Organized by Nadimpalli Satyanarayana Raju Institute of Technology (NSRIT) in association with IEEE, Morris Garages, and Institution's Innovation Council (Ministry of I&B Initiative). NSRIT's Department of Electrical & Electronics Engineering is accredited by NBA under Tier I. Scan QR code for registration. Instagram handle: @nsrit_eee_club. Website: www.nsrit.edu.in.",
+      "raw_text": "NSRIT NATIONAL BOARD OF ACCREDITATION INSTITUTION'S INNOVATION COUNCIL (Ministry of I&B Initiative) IEEE MG MORRIS GARAGES NADIMPALLI SATYANARAYANA RAJU INSTITUTE OF TECHNOLOGY DEPARTMENT OF ELECTRICAL AND ELECTRONICS ENGINEERING VIZAG TRI-MOBILITY CHALLENGE 2K26 PRIZE WORTH 1,80,000 EV - Contest Drones Contest Hardware Innovation Software Innovation Student Innovation 24 HRS HACKATHON FEBRUARY-20,21 SCAN FOR REGISTRATION @nsrit_eee_club EVENT CHAIR Dr. R. S. R. KRISHNAM NAIDU, PROF. & HEAD Voice: 80740 93388 | Email: hodeee@nsrit.edu.in STUDENT CO-ORDINATOR K.Guna sekhar (III EEE) (+91 96402 30881) FACULTY CO-ORDINATORS Dr. S. Rajendra Prasad (+91 95154 34340) Ms. K. Priyanka (+91 99493 23747) Mr. K.M.M. Tarakesh (+91 89858 80153) Ms. S. Yamini (+91 77021 15918) Visit us: www.nsrit.edu.in | Department of Electrical & Electronics Engineering (Accredited by NBA under Tier I) | Email ID: hodeee@nsrit.edu.in Scanned with OKEN Scanner",
+      "source_file": "event_photos_folder\\events_photos.pdf",
+      "source_page": 13,
+      "file_type": "pdf",
+      "processed_at": "2026-02-12T18:20:59.761580"
+    },
+    {
+      "event_name": "Lendi National Innovation & Technology Summit - 2K26",
+      "event_type": "Innovation & Technology Summit",
+      "department": "Lendi Institute of Engineering & Technology",
+      "dates": {
+        "event_date": "26-02-2026",
+        "end_date": "28-02-2026",
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": null,
+      "venue": "Vizag-Vizianagaram Road-NH-43, Denkada, Jonnada, Andhra Pradesh 535005",
+      "description": "A national innovation and technology summit with the theme 'Innovation for Rural Empowerment & Sustainable Technology'. The event spans three days, featuring a 48-hour hackathon (National Hacktriad 2.0), various innovation events, cultural events, and emerging-tech talks by industry experts. It aims to provide problem statements from top industry experts and offers internship opportunities for winners.",
+      "registration_fee": "Varies by event:\n- National Hacktriad 2.0: ₹750/- per head (includes food and accommodation)\n- Other sub-events (Mech EL-Ctronics, Startup Ideathon, Rural Innovation Challenge): ₹499/- per head (students can participate in any two events)\n- Spot Events (Debugging Contest): ₹100/- per head\n- Cultural Events: Free",
+      "contact_persons": [
+        {
+          "name": "Dr T Papi Naidu",
+          "role": "General Contact",
+          "phone": "9440381167",
+          "email": null
+        },
+        {
+          "name": "Mr S S Kiran",
+          "role": "General Contact",
+          "phone": "9985163700",
+          "email": null
+        },
+        {
+          "name": "Dr. Vasanth K. Y.",
+          "role": "Dean IIC, Convener & General Contact",
+          "phone": "8985299756",
+          "email": "dean.iic@lendi.edu.in"
+        },
+        {
+          "name": "A. Dhanush Kumar",
+          "role": "Student Coordinator (CSE)",
+          "phone": "9492895382",
+          "email": null
+        },
+        {
+          "name": "Ch Hemanth Kumar",
+          "role": "Student Coordinator (EEE)",
+          "phone": "7075915507",
+          "email": null
+        },
+        {
+          "name": "P V Vignan",
+          "role": "Student Coordinator (ECE)",
+          "phone": "6304035036",
+          "email": null
+        },
+        {
+          "name": "M Meghana",
+          "role": "Student Coordinator (CSE)",
+          "phone": "9949072607",
+          "email": null
+        }
+      ],
+      "prizes": "Total Cash Prize: ₹4 Lakhs. For HACKTRIAD 2.0: 1st Prize: ₹1,00,000/-, 2nd Prize: ₹50,000/-, 3rd Prize: ₹25,000/-. Internship opportunities in industry for winners.",
+      "topics": [
+        "Innovation for Rural Empowerment & Sustainable Technology (Overall Theme)",
+        "National Hacktriad 2.0 (48 Hours Hackathon)",
+        "Mech EL-Ctronics (Innovation Expo)",
+        "Startup Ideathon (Poster Presentation, Startup Pitch Event)",
+        "Rural Innovation Challenge (App for Rural Empowerment)",
+        "Spot Events (Debugging Contest)",
+        "Cultural Events",
+        "Emerging-Tech Talks (By Industry Experts)",
+        "Hacktriad 2.0 - Day 1: Bootcamp Inauguration",
+        "Hacktriad 2.0 - Day 2: Idea Pitching & Prototype Development",
+        "Hacktriad 2.0 - Day 3: Prototype Development"
+      ],
+      "target_audience": "Students, innovators, and possibly industry professionals interested in technology, innovation, rural empowerment, and sustainable development.",
+      "additional_info": "Organized by Lendi Institute of Engineering & Technology, an Autonomous Institution, accredited by NAAC A+ and NBA. Supported by Institution's Innovation Council, Ministry of Education's Innovation Cell, and IEEE Vizianagaram Sub Section. The institution celebrates 18 years of excellence. Problem statements will be provided by top industry experts. Website for more details & registrations: https://lendinit.lendi.edu.in/",
+      "raw_text": "Lendi An Autonomous Institution Institute of Engineering & Technology NAAC A+ NBA National Board of Accreditation Institution's Innovation Council Ministry of Education's Innovation Cell Government of India IEEE Vizianagaram Sub Section 18 Years of Excellence LNIT SUMMIT - 2K26 Lendi National Innovation & Technology Summit - 2K26 Feb 26th, 27th & 28th 2026 Theme: Innovation for Rural Empowerment & Sustainable Technology NATIONAL HACKTRIAD 2.0 48 Hours Hackathon ₹750/- Per Head Food and accommodation free Mech EL-Ctronics Innovation Expo Startup Ideathon Poster Presentation Startup Pitch Event Rural Innovation Challenge App for Rural Empowerment Spot Events Debugging Contest ₹100/- per Head Cultural Events Free Emerging-Tech Talks By Industry experts ₹499/- Per Head. Students can participate in any two events Prizes Feb 26th 2026 Bootcamp Inauguration Feb 27th 2026 Idea Pitching & Prototype Development Feb 28th 2026 Prototype Development 1st Prize : ₹1,00,000/- 2nd Prize : ₹ 50,000/- 3rd Prize : ₹ 25,000/- FOR HACKTRIAD 2.0 4 Lakhs Cash Prize Total Problem Statements from Top Industry Experts Internship opportunities in industry for winners CHIEF PATRONS SRI. P.MADHUSUDANA RAO, CHAIRMAN SRI. P.SRINIVASA RAO, VICE CHAIRMAN SRI K. SIVA RAMA KRISHNA, SECRETARY PATRON Dr. V.V. RAMA REDDY, PRINCIPAL SRI. P.V.N. RAJIV SRI. P. PAVAN KUMAR Dr. K. Suresh CONVENER Mr. G. PRAKASH BABU, Dean T&P Dr. ANJI REDDY V, Vice Principal Dr. VASANTH. K. Y, Dean IIC STUDENT COORDINATOR A. DHANUSH KUMAR, CSE, 9492895382 CH HEMANTH KUMAR, EEE, 7075915507 P V VIGNAN, ECE, 6304035036 M MEGHANA, CSE, 9949072607 SCAN HERE FOR MORE DETAILS & REGISTRATIONS https://lendinit.lendi.edu.in/ Vizag-Vizianagaram Road-NH-43, Denkada, Jonnada, Andhra Pradesh 535005 9440381167 / 9985163700 / 8985299756 Dr T Papi Naidu / Mr S S Kiran / Dr. Vasanth dean.iic@lendi.edu.in",
+      "source_file": "event_photos_folder\\WhatsApp Image 2026-02-11 at 08.36.47.jpeg",
+      "file_type": "image",
+      "processed_at": "2026-02-12T18:21:27.069739"
+    },
+    {
+      "event_name": "SheHack 2026",
+      "event_type": "Hackathon",
+      "department": "Department of CSE allied & ECE in association with IIC & NSRIET CSI Institute Chapter, N S Raju Institute of Engineering & Technology",
+      "dates": {
+        "event_date": "06-03-2026",
+        "end_date": null,
+        "registration_deadline": "28-02-2026",
+        "abstract_submission": null
+      },
+      "time": "01:00 PM Onwards",
+      "venue": "N S Raju Institute of Engineering & Technology, Dakamarri, Visakhapatnam, Andhra Pradesh (On Site)",
+      "description": "An 18-hour Hackathon organized as part of International Women's Day Celebrations with the theme 'SHE CODES VIKSIT BHARAT'.",
+      "registration_fee": "INR 250/- per student",
+      "contact_persons": [
+        {
+          "name": "Prof. Adi Babu",
+          "role": "Head (CSE)",
+          "phone": "+91 99634 82382",
+          "email": null
+        }
+      ],
+      "prizes": "INR 60000",
+      "topics": [
+        "SHE CODES VIKSIT BHARAT"
+      ],
+      "target_audience": "Students",
+      "additional_info": "Team Size: Four\nRegistration website: www.nsriet.edu.in\nProblem Statement: On Site\nEvent Sponsor: SARAS AI INSTITUTE USA\nIndustry Partners: Nadimpalli Informatics LLP, Council for Skills and Competencies, iGenuine, Teckybot\nSupported by: Institution's Innovation Council (Ministry of Education Initiative), Computer Society of India",
+      "raw_text": "NSRIET CODE NSRE\nN S Raju Institute of Engineering & Technology\nDakamarri, Visakhapatnam, Andhra Pradesh\nINSTITUTION'S INNOVATION COUNCIL (Ministry of Education Initiative)\nCOMPUTER SOCIETY OF INDIA ESTD. 1965 सत्यम् वद धर्मम् चर\nSARAS AI INSTITUTE USA Event Sponsor\nPRIZE WORTH INR 60000\nSheHack 2026\nSHE CODES VIKSIT BHARAT\nINTERNATIONAL WOMENS DAY CELEBRATIONS\nAn 18-hour Hackathon | March 06, 2026, Time: 01:00 PM Onwards\nContact: Prof. Adi Babu, Head (CSE) | +91 99634 82382\nORGANISED BY\nDepartment of CSE allied & ECE\nin association with\nIIC & NSRIET CSI Institute Chapter\nID: 5084250001\nINDUSTRY PARTNERS\nNadimpalli Informatics LLP\nCouncil for Skills and Competencies\niGenuine\nTeckybot Where future meets innovation\nFEE & REGISTRATION\nRegistration Fee : INR 250/- per student\nTeam Size : Four\nPay & Register : www.nsriet.edu.in\nProblem Stmt. : On Site\nLast Date for Registration: February 28, 2026",
+      "source_file": "event_photos_folder\\WhatsApp Image 2026-02-11 at 21.25.44.jpeg",
+      "file_type": "image",
+      "processed_at": "2026-02-12T18:36:28.734836"
+    },
+    {
+      "event_name": "HackSavvy - 26",
+      "event_type": "Hackathon",
+      "department": "Mahatma Gandhi Institute of Technology (Autonomous)",
+      "dates": {
+        "event_date": "12-02-2026",
+        "end_date": "13-02-2026",
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": "24 hours",
+      "venue": "Mahatma Gandhi Institute of Technology (MGIT), Kokapet(Village), Gandipet, Hyderabad, Telangana - 500075",
+      "description": "A National Level Hackathon to Ideate, Innovate, Inspire, focusing on various themes in technology.",
+      "registration_fee": "₹ 2500 per team (Maximum 5 members per team)",
+      "contact_persons": [
+        {
+          "name": "Prof. C.R.K. Reddy",
+          "role": "Convener, Head CSE",
+          "phone": null,
+          "email": "hacksavvy@mgit.ac.in"
+        },
+        {
+          "name": "Prof. D Vijaya Lakshmi",
+          "role": "Convener, Head IT",
+          "phone": null,
+          "email": "hacksavvy@mgit.ac.in"
+        },
+        {
+          "name": "Prof. M. Rama Bai",
+          "role": "Convener, Head E1",
+          "phone": null,
+          "email": "hacksavvy@mgit.ac.in"
+        },
+        {
+          "name": "Dr. Venkat Reddy",
+          "role": "Convener, Head ECE",
+          "phone": null,
+          "email": "hacksavvy@mgit.ac.in"
+        },
+        {
+          "name": "Dr. Ch. Ramesh Babu",
+          "role": "Faculty Coordinator",
+          "phone": "9985677767",
+          "email": null
+        },
+        {
+          "name": "Dr. V. Subba Ramaiaha",
+          "role": "Faculty Coordinator",
+          "phone": "9393005221",
+          "email": null
+        },
+        {
+          "name": "Dr. A. Ratna Raju",
+          "role": "Faculty Coordinator",
+          "phone": "7893213140",
+          "email": null
+        },
+        {
+          "name": "Dr. K. Madhubabu",
+          "role": "Faculty Coordinator",
+          "phone": "7780327440",
+          "email": null
+        },
+        {
+          "name": "Dr. Meera Alphy",
+          "role": "Faculty Coordinator",
+          "phone": "8547586410",
+          "email": null
+        },
+        {
+          "name": "Mr. R Srinivas",
+          "role": "Faculty Coordinator",
+          "phone": "966660028",
+          "email": null
+        },
+        {
+          "name": "Dr. B. Yadaiah",
+          "role": "Faculty Coordinator",
+          "phone": "9030007577",
+          "email": null
+        },
+        {
+          "name": "Mr. J Hima Bindu",
+          "role": "Faculty Coordinator",
+          "phone": "9346530034",
+          "email": null
+        },
+        {
+          "name": "Mrs. V. Veena",
+          "role": "Faculty Coordinator",
+          "phone": "7893213140",
+          "email": null
+        },
+        {
+          "name": "A. Bal Raju",
+          "role": "Faculty Coordinator",
+          "phone": "9951992097",
+          "email": null
+        },
+        {
+          "name": "Dr. S. Siva Reddy",
+          "role": "Faculty Coordinator",
+          "phone": "9505242497",
+          "email": null
+        },
+        {
+          "name": "Mr. Sheri Abhishek Reddy",
+          "role": "Faculty Coordinator",
+          "phone": "9885813113",
+          "email": null
+        },
+        {
+          "name": "Mr. P. Shankar Kumar Reddy",
+          "role": "Faculty Coordinator",
+          "phone": "9550501616",
+          "email": null
+        },
+        {
+          "name": "K. Govind Goud",
+          "role": "Faculty Coordinator",
+          "phone": "9542531035",
+          "email": null
+        },
+        {
+          "name": "Dr. Asheesh Kumar",
+          "role": "Faculty Coordinator",
+          "phone": "9450372340",
+          "email": null
+        },
+        {
+          "name": "Mr. Bhoomik Ketari Deogade",
+          "role": "Faculty Coordinator",
+          "phone": "9866456825",
+          "email": null
+        },
+        {
+          "name": "Vrundha Reddy Panga",
+          "role": "Student Coordinator",
+          "phone": "9133199706",
+          "email": null
+        },
+        {
+          "name": "Junaid Ahmed Khan",
+          "role": "Student Coordinator",
+          "phone": "8008800401",
+          "email": null
+        },
+        {
+          "name": "Saanvi Salla",
+          "role": "Student Coordinator",
+          "phone": "9381154261",
+          "email": null
+        },
+        {
+          "name": "Bilal Ahmed Shah Khan",
+          "role": "Student Coordinator",
+          "phone": "8121008780",
+          "email": null
+        },
+        {
+          "name": "K. Kriti",
+          "role": "Student Coordinator",
+          "phone": "9966430309",
+          "email": null
+        },
+        {
+          "name": "Sai Amrutha Polu",
+          "role": "Student Coordinator",
+          "phone": "8464085246",
+          "email": null
+        },
+        {
+          "name": "P. Vignesh Kumar Yadav",
+          "role": "Student Coordinator",
+          "phone": "8019148835",
+          "email": null
+        },
+        {
+          "name": "Alisha",
+          "role": "Student Coordinator",
+          "phone": "9704003687",
+          "email": null
+        },
+        {
+          "name": "Ashwini",
+          "role": "Student Coordinator",
+          "phone": "9989211003",
+          "email": null
+        },
+        {
+          "name": "B. Harshith",
+          "role": "Student Coordinator",
+          "phone": "9390409985",
+          "email": null
+        },
+        {
+          "name": "K. Parth",
+          "role": "Student Coordinator",
+          "phone": "8019129191",
+          "email": null
+        },
+        {
+          "name": "Maneesha",
+          "role": "Student Coordinator",
+          "phone": "9381612229",
+          "email": null
+        },
+        {
+          "name": "Abhijay Murugan",
+          "role": "Student Coordinator",
+          "phone": "9052112361",
+          "email": null
+        },
+        {
+          "name": "D P V Sri Vaishnavi",
+          "role": "Student Coordinator",
+          "phone": "9391815358",
+          "email": null
+        },
+        {
+          "name": "T.Rohith",
+          "role": "Student Coordinator",
+          "phone": "7842278953",
+          "email": null
+        },
+        {
+          "name": "Jitin Reddy Saireddygari",
+          "role": "Student Coordinator",
+          "phone": "9392614081",
+          "email": null
+        },
+        {
+          "name": "Shreya Reddy Thangella",
+          "role": "Student Coordinator",
+          "phone": "8919290101",
+          "email": null
+        },
+        {
+          "name": null,
+          "role": "General Event Email",
+          "phone": null,
+          "email": "hacksavvy@mgit.ac.in"
+        }
+      ],
+      "prizes": "₹ 2,50,000 (Grand Prize Pool)",
+      "topics": [
+        "AI, Automation, Robotics & Drone Technology",
+        "Cyber Security & Block Chain",
+        "IoT, VLSI & Embedded Systems",
+        "Sustainability and Environment",
+        "Open Innovation"
+      ],
+      "target_audience": "Students (implied by 'National Level Hackathon' and 'Student Coordinators')",
+      "additional_info": "IDEATE INNOVATE INSPIRE; 24 hrs HACKATHON; Team size Max 5; Motivate Innovate Empower 29 Years; Scan QR codes for Guidelines and Registration; Social Media Handle: @hacksavvy.mgit; Website: mgitconnect.in, www.mgit.ac.in",
+      "raw_text": "MAHATMA GANDHI INSTITUTE OF TECHNOLOGY (Autonomous)\nKokapet(Village), Gandipet, Hyderabad, Telangana – 500075. www.mgit.ac.in\nUGC Autonomous | Affiliated to JNTUH | Approved by AICTE | Accredited by NAAC with 'A' Grade\nMOTIVATE INNOVATE EMPOWER 29 YEARS\nHackSavvy - 26\nIDEATE INNOVATE INSPIRE\nA NATIONAL LEVEL HACKATHON\n24 hrs HACKATHON\n12th & 13th FEBRUARY 2026\nVENUE:\nMAHATMA GANDHI INSTITUTE OF TECHNOLOGY (MGIT)\nTHEME:\nAI, Automation, Robotics & Drone Technology\nCyber Security & Block Chain\nIoT, VLSI & Embedded Systems\nSustainability and Environment\nOpen Innovation\nGrand Prize Pool\n₹ 2,50,000\nRegistration Fee\n₹ 2500 per team\nTeam size Max 5\nGuidelines (QR code)\nRegistration (QR code)\nProf. C.R.K. Reddy Head, CSE Convener, HackSavvy-26\nProf. D Vijaya Lakshmi Head, IT Convener, HackSavvy-26\nProf. M. Rama Bai Head, E1 Convener, HackSavvy-26\nDr. Venkat Reddy Head, ECE Convener, HackSavvy-26\nFaculty Coordinators\nDr. Ch. Ramesh Babu - 9985677767\nDr. V. Subba Ramaiaha - 9393005221\nDr. A. Ratna Raju - 7893213140\nDr. K. Madhubabu - 7780327440\nDr. Meera Alphy - 8547586410\nMr. R Srinivas - 966660028\nDr. B. Yadaiah - 9030007577\nMr. J Hima Bindu - 9346530034\nMrs. V. Veena - 7893213140\nA. Bal Raju - 9951992097\nDr. S. Siva Reddy - 9505242497\nMr. Sheri Abhishek Reddy - 9885813113\nMr. P. Shankar Kumar Reddy - 9550501616\nK. Govind Goud - 9542531035\nDr. Asheesh Kumar - 9450372340\nMr. Bhoomik Ketari Deogade - 9866456825\nStudent Coordinators\nVrundha Reddy Panga - 9133199706\nJunaid Ahmed Khan - 8008800401\nSaanvi Salla - 9381154261\nBilal Ahmed Shah Khan - 8121008780\nK. Kriti - 9966430309\nSai Amrutha Polu - 8464085246\nP. Vignesh Kumar Yadav - 8019148835\nAlisha - 9704003687\nAshwini - 9989211003\nB. Harshith - 9390409985\nK. Parth - 8019129191\nManeesha - 9381612229\nAbhijay Murugan - 9052112361\nD P V Sri Vaishnavi - 9391815358\nT.Rohith - 7842278953\nJitin Reddy Saireddygari - 9392614081\nShreya Reddy Thangella - 8919290101\nMgItconnect.in\nhacksavvy@mgit.ac.in\n@hacksavvy.mgit",
+      "source_file": "event_photos_folder\\WhatsApp Image 2026-01-21 at 10.31.07.jpeg",
+      "file_type": "image",
+      "processed_at": "2026-02-12T22:22:45.834552"
+    },
+    {
+      "event_name": "HACKTRAID 2.0 2026",
+      "event_type": "Hackathon",
+      "department": "LNIT SUMMIT (Lendi Engineering College)",
+      "dates": {
+        "event_date": "26-02-2026",
+        "end_date": "28-02-2026",
+        "registration_deadline": null,
+        "abstract_submission": null
+      },
+      "time": null,
+      "venue": "Lendi Engineering College Campus (inferred)",
+      "description": "Collaborate, code, and create change. Because the future is built on campus. The event flow includes: Day 1: Inauguration, Keynote, Bootcamp; Day 2: Hackathon Development (Full Day); Day 3: Evaluation, Demo, Valedictory.",
+      "registration_fee": "₹750 per head",
+      "contact_persons": [
+        {
+          "name": null,
+          "role": "General Inquiry",
+          "phone": "7093461111",
+          "email": "lendi_2008@yahoo.com"
+        }
+      ],
+      "prizes": "Price Pool: ₹1,75,000",
+      "topics": [
+        "Hackathon Development",
+        "Coding",
+        "Innovation",
+        "Problem Solving"
+      ],
+      "target_audience": "Students, Developers, Teams (3-5 persons)",
+      "additional_info": "Team Size: 3-5 persons per team. For more details, visit: https://lendinit.lendi.edu.in. Organized by LNIT SUMMIT and supported by LENDI, AICTE, NBA, Institutions Innovation Council, NAAC, IEEE.",
+      "raw_text": "LENDI AICTE NBA NATIONAL BOARD OF ACCREDITATION INSTITUTIONS INNOVATION COUNCIL NAAC IEEE 18 EXCELLENCE LNIT SUMMIT PRESENTS HACKTRAID 2.0 2026 26th FEB - 28th FEB 2026 Collaborate, code, and create change.Because the future is built on campus. EVENT FLOW: Day 1: Inauguration • Keynote • Bootcamp Day 2: Hackathon Development (Full Day) Day 3: Evaluation • Demo • Valedictory REGISTRATION FEE: ₹750 / HEAD 3-5 PERSONS / TEAM PRICE POOL 1,75,000/- FOR MORE DETAILS https://lendinit.lendi.edu.in lendi engg college LENDI LIET lendi_2008@yahoo.com 7093461111 @lendi6086",
+      "source_file": "event_photos_folder\\image.png",
+      "file_type": "image",
+      "processed_at": "2026-02-19T17:26:00.599053"
+    }
+  ]
+}

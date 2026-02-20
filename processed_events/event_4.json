@@ -1,0 +1,259 @@
+{
+  "event_name": "HackSavvy - 26",
+  "event_type": "Hackathon",
+  "department": "Mahatma Gandhi Institute of Technology (Autonomous)",
+  "dates": {
+    "event_date": "12-02-2026",
+    "end_date": "13-02-2026",
+    "registration_deadline": null,
+    "abstract_submission": null
+  },
+  "time": "24 hours",
+  "venue": "Mahatma Gandhi Institute of Technology (MGIT), Kokapet(Village), Gandipet, Hyderabad, Telangana - 500075",
+  "description": "A National Level Hackathon to Ideate, Innovate, Inspire, focusing on various themes in technology.",
+  "registration_fee": "₹ 2500 per team (Maximum 5 members per team)",
+  "contact_persons": [
+    {
+      "name": "Prof. C.R.K. Reddy",
+      "role": "Convener, Head CSE",
+      "phone": null,
+      "email": "hacksavvy@mgit.ac.in"
+    },
+    {
+      "name": "Prof. D Vijaya Lakshmi",
+      "role": "Convener, Head IT",
+      "phone": null,
+      "email": "hacksavvy@mgit.ac.in"
+    },
+    {
+      "name": "Prof. M. Rama Bai",
+      "role": "Convener, Head E1",
+      "phone": null,
+      "email": "hacksavvy@mgit.ac.in"
+    },
+    {
+      "name": "Dr. Venkat Reddy",
+      "role": "Convener, Head ECE",
+      "phone": null,
+      "email": "hacksavvy@mgit.ac.in"
+    },
+    {
+      "name": "Dr. Ch. Ramesh Babu",
+      "role": "Faculty Coordinator",
+      "phone": "9985677767",
+      "email": null
+    },
+    {
+      "name": "Dr. V. Subba Ramaiaha",
+      "role": "Faculty Coordinator",
+      "phone": "9393005221",
+      "email": null
+    },
+    {
+      "name": "Dr. A. Ratna Raju",
+      "role": "Faculty Coordinator",
+      "phone": "7893213140",
+      "email": null
+    },
+    {
+      "name": "Dr. K. Madhubabu",
+      "role": "Faculty Coordinator",
+      "phone": "7780327440",
+      "email": null
+    },
+    {
+      "name": "Dr. Meera Alphy",
+      "role": "Faculty Coordinator",
+      "phone": "8547586410",
+      "email": null
+    },
+    {
+      "name": "Mr. R Srinivas",
+      "role": "Faculty Coordinator",
+      "phone": "966660028",
+      "email": null
+    },
+    {
+      "name": "Dr. B. Yadaiah",
+      "role": "Faculty Coordinator",
+      "phone": "9030007577",
+      "email": null
+    },
+    {
+      "name": "Mr. J Hima Bindu",
+      "role": "Faculty Coordinator",
+      "phone": "9346530034",
+      "email": null
+    },
+    {
+      "name": "Mrs. V. Veena",
+      "role": "Faculty Coordinator",
+      "phone": "7893213140",
+      "email": null
+    },
+    {
+      "name": "A. Bal Raju",
+      "role": "Faculty Coordinator",
+      "phone": "9951992097",
+      "email": null
+    },
+    {
+      "name": "Dr. S. Siva Reddy",
+      "role": "Faculty Coordinator",
+      "phone": "9505242497",
+      "email": null
+    },
+    {
+      "name": "Mr. Sheri Abhishek Reddy",
+      "role": "Faculty Coordinator",
+      "phone": "9885813113",
+      "email": null
+    },
+    {
+      "name": "Mr. P. Shankar Kumar Reddy",
+      "role": "Faculty Coordinator",
+      "phone": "9550501616",
+      "email": null
+    },
+    {
+      "name": "K. Govind Goud",
+      "role": "Faculty Coordinator",
+      "phone": "9542531035",
+      "email": null
+    },
+    {
+      "name": "Dr. Asheesh Kumar",
+      "role": "Faculty Coordinator",
+      "phone": "9450372340",
+      "email": null
+    },
+    {
+      "name": "Mr. Bhoomik Ketari Deogade",
+      "role": "Faculty Coordinator",
+      "phone": "9866456825",
+      "email": null
+    },
+    {
+      "name": "Vrundha Reddy Panga",
+      "role": "Student Coordinator",
+      "phone": "9133199706",
+      "email": null
+    },
+    {
+      "name": "Junaid Ahmed Khan",
+      "role": "Student Coordinator",
+      "phone": "8008800401",
+      "email": null
+    },
+    {
+      "name": "Saanvi Salla",
+      "role": "Student Coordinator",
+      "phone": "9381154261",
+      "email": null
+    },
+    {
+      "name": "Bilal Ahmed Shah Khan",
+      "role": "Student Coordinator",
+      "phone": "8121008780",
+      "email": null
+    },
+    {
+      "name": "K. Kriti",
+      "role": "Student Coordinator",
+      "phone": "9966430309",
+      "email": null
+    },
+    {
+      "name": "Sai Amrutha Polu",
+      "role": "Student Coordinator",
+      "phone": "8464085246",
+      "email": null
+    },
+    {
+      "name": "P. Vignesh Kumar Yadav",
+      "role": "Student Coordinator",
+      "phone": "8019148835",
+      "email": null
+    },
+    {
+      "name": "Alisha",
+      "role": "Student Coordinator",
+      "phone": "9704003687",
+      "email": null
+    },
+    {
+      "name": "Ashwini",
+      "role": "Student Coordinator",
+      "phone": "9989211003",
+      "email": null
+    },
+    {
+      "name": "B. Harshith",
+      "role": "Student Coordinator",
+      "phone": "9390409985",
+      "email": null
+    },
+    {
+      "name": "K. Parth",
+      "role": "Student Coordinator",
+      "phone": "8019129191",
+      "email": null
+    },
+    {
+      "name": "Maneesha",
+      "role": "Student Coordinator",
+      "phone": "9381612229",
+      "email": null
+    },
+    {
+      "name": "Abhijay Murugan",
+      "role": "Student Coordinator",
+      "phone": "9052112361",
+      "email": null
+    },
+    {
+      "name": "D P V Sri Vaishnavi",
+      "role": "Student Coordinator",
+      "phone": "9391815358",
+      "email": null
+    },
+    {
+      "name": "T.Rohith",
+      "role": "Student Coordinator",
+      "phone": "7842278953",
+      "email": null
+    },
+    {
+      "name": "Jitin Reddy Saireddygari",
+      "role": "Student Coordinator",
+      "phone": "9392614081",
+      "email": null
+    },
+    {
+      "name": "Shreya Reddy Thangella",
+      "role": "Student Coordinator",
+      "phone": "8919290101",
+      "email": null
+    },
+    {
+      "name": null,
+      "role": "General Event Email",
+      "phone": null,
+      "email": "hacksavvy@mgit.ac.in"
+    }
+  ],
+  "prizes": "₹ 2,50,000 (Grand Prize Pool)",
+  "topics": [
+    "AI, Automation, Robotics & Drone Technology",
+    "Cyber Security & Block Chain",
+    "IoT, VLSI & Embedded Systems",
+    "Sustainability and Environment",
+    "Open Innovation"
+  ],
+  "target_audience": "Students (implied by 'National Level Hackathon' and 'Student Coordinators')",
+  "additional_info": "IDEATE INNOVATE INSPIRE; 24 hrs HACKATHON; Team size Max 5; Motivate Innovate Empower 29 Years; Scan QR codes for Guidelines and Registration; Social Media Handle: @hacksavvy.mgit; Website: mgitconnect.in, www.mgit.ac.in",
+  "raw_text": "MAHATMA GANDHI INSTITUTE OF TECHNOLOGY (Autonomous)\nKokapet(Village), Gandipet, Hyderabad, Telangana – 500075. www.mgit.ac.in\nUGC Autonomous | Affiliated to JNTUH | Approved by AICTE | Accredited by NAAC with 'A' Grade\nMOTIVATE INNOVATE EMPOWER 29 YEARS\nHackSavvy - 26\nIDEATE INNOVATE INSPIRE\nA NATIONAL LEVEL HACKATHON\n24 hrs HACKATHON\n12th & 13th FEBRUARY 2026\nVENUE:\nMAHATMA GANDHI INSTITUTE OF TECHNOLOGY (MGIT)\nTHEME:\nAI, Automation, Robotics & Drone Technology\nCyber Security & Block Chain\nIoT, VLSI & Embedded Systems\nSustainability and Environment\nOpen Innovation\nGrand Prize Pool\n₹ 2,50,000\nRegistration Fee\n₹ 2500 per team\nTeam size Max 5\nGuidelines (QR code)\nRegistration (QR code)\nProf. C.R.K. Reddy Head, CSE Convener, HackSavvy-26\nProf. D Vijaya Lakshmi Head, IT Convener, HackSavvy-26\nProf. M. Rama Bai Head, E1 Convener, HackSavvy-26\nDr. Venkat Reddy Head, ECE Convener, HackSavvy-26\nFaculty Coordinators\nDr. Ch. Ramesh Babu - 9985677767\nDr. V. Subba Ramaiaha - 9393005221\nDr. A. Ratna Raju - 7893213140\nDr. K. Madhubabu - 7780327440\nDr. Meera Alphy - 8547586410\nMr. R Srinivas - 966660028\nDr. B. Yadaiah - 9030007577\nMr. J Hima Bindu - 9346530034\nMrs. V. Veena - 7893213140\nA. Bal Raju - 9951992097\nDr. S. Siva Reddy - 9505242497\nMr. Sheri Abhishek Reddy - 9885813113\nMr. P. Shankar Kumar Reddy - 9550501616\nK. Govind Goud - 9542531035\nDr. Asheesh Kumar - 9450372340\nMr. Bhoomik Ketari Deogade - 9866456825\nStudent Coordinators\nVrundha Reddy Panga - 9133199706\nJunaid Ahmed Khan - 8008800401\nSaanvi Salla - 9381154261\nBilal Ahmed Shah Khan - 8121008780\nK. Kriti - 9966430309\nSai Amrutha Polu - 8464085246\nP. Vignesh Kumar Yadav - 8019148835\nAlisha - 9704003687\nAshwini - 9989211003\nB. Harshith - 9390409985\nK. Parth - 8019129191\nManeesha - 9381612229\nAbhijay Murugan - 9052112361\nD P V Sri Vaishnavi - 9391815358\nT.Rohith - 7842278953\nJitin Reddy Saireddygari - 9392614081\nShreya Reddy Thangella - 8919290101\nMgItconnect.in\nhacksavvy@mgit.ac.in\n@hacksavvy.mgit",
+  "source_file": "event_photos_folder\\WhatsApp Image 2026-01-21 at 10.31.07.jpeg",
+  "file_type": "image",
+  "processed_at": "2026-02-12T22:22:45.834552"
+}

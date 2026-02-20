@@ -1,0 +1,34 @@
+{
+  "event_name": "Cyber Security Workshop",
+  "event_type": "Workshop",
+  "department": "NSRIT Autonomous, Department of CSE, CSM & CSD",
+  "dates": {
+    "event_date": "10-10-2025",
+    "end_date": "11-10-2025",
+    "registration_deadline": null,
+    "abstract_submission": null
+  },
+  "time": null,
+  "venue": null,
+  "description": "This 2-day workshop is designed to protect systems, networks, and data from cyber threats. Participants will gain hands-on experience with Kali Linux, Nmap, and real-world hacking tools. They will learn to secure Wi-Fi networks and systems from common cyberattacks, and understand advanced techniques like MITM attacks, dark web usage, and bug bounty hunting. The workshop also includes building practical problem-solving skills through a Capture the Flag challenge.",
+  "registration_fee": "150/-",
+  "contact_persons": [],
+  "prizes": "Awards for top performers in the Capture the Flag challenge.",
+  "topics": [
+    "Kali Linux",
+    "Nmap",
+    "Real-world hacking tools",
+    "Wi-Fi network security",
+    "Protection against common cyberattacks",
+    "MITM attacks",
+    "Dark Web usage",
+    "Bug Bounty hunting",
+    "Capture the Flag challenge"
+  ],
+  "target_audience": null,
+  "additional_info": "This is a 2-day workshop organized by NSRIT Autonomous, Department of CSE, CSM & CSD, possibly in association with ACM and Computer Society of India (CSI) given the logos.",
+  "raw_text": "NSRIT AUTONOMOUS 2-DAY WORKSHOP ON CYBER SECURITY 10th & 11th Oct, 2025 Designed to protect systems, networks and data from cyber threats. Registration fee:150/- Gain hands-on experience with kali Linux, Nmap, and real-world hacking tools. Learn to secure Wi-Fi networks and systems from common cyberattacks Understand advanced techniques like MITM attacks, dark Web usage, and Bug Bounty hunting Build Practical problem-solving skill through a Capture the flag challenge with awards for top performers Department of CSE, CSM & CSD ACM CSI Scanned with OKEN Scanner",
+  "source_page": 4,
+  "source_file": "events_photos.pdf",
+  "processed_at": "2026-02-12T17:31:48.830076"
+}

@@ -1,0 +1,27 @@
+{
+  "event_name": "IoT & Its Applications",
+  "event_type": "Workshop",
+  "department": "Department of Electronics and Communication Engineering, NSRIT Autonomous",
+  "dates": {
+    "event_date": "22-09-2025",
+    "end_date": "24-09-2025",
+    "registration_deadline": null,
+    "abstract_submission": null
+  },
+  "time": null,
+  "venue": null,
+  "description": "A 3-day hands-on workshop focused on the Internet of Things (IoT) and its various applications.",
+  "registration_fee": null,
+  "contact_persons": [],
+  "prizes": null,
+  "topics": [
+    "IoT",
+    "IoT Applications"
+  ],
+  "target_audience": null,
+  "additional_info": "This workshop is organized by the Department of Electronics and Communication Engineering, NSRIT Autonomous. NSRIT is NAAC Accredited with Grade A and affiliated with the Indian Society for Technical Education (ISTE).",
+  "raw_text": "NAAC Accredited with Grade A NSRIT AUTONOMOUS INDIAN SOCIETY FOR TECHNICAL EDUCATION (ISTE) DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING 3 Day Hands on Workshop on \"IoT & Its Applications\" Date : 22nd to 24th September, 2025",
+  "source_page": 3,
+  "source_file": "events_photos.pdf",
+  "processed_at": "2026-02-12T17:31:25.160716"
+}

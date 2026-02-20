@@ -1,0 +1,28 @@
+{
+  "event_name": "Industrial Visit: Water Treatment Plant",
+  "event_type": "Industrial Visit",
+  "department": "Department of Civil Engineering, NSRIT Autonomous",
+  "dates": {
+    "event_date": "05-03-2025",
+    "end_date": null,
+    "registration_deadline": null,
+    "abstract_submission": null
+  },
+  "time": null,
+  "venue": "Narava, Visakhapatnam, Andhra Pradesh",
+  "description": "Water treatment is a crucial aspect of civil engineering, as it ensures the safe and sustainable management of water resources.",
+  "registration_fee": null,
+  "contact_persons": [],
+  "prizes": null,
+  "topics": [
+    "Water Treatment",
+    "Civil Engineering",
+    "Sustainable Management of Water Resources"
+  ],
+  "target_audience": "Civil Engineering students and professionals (inferred from department and topic)",
+  "additional_info": "For more information, visit www.nsrit.edu.in. Social media links (WhatsApp, Facebook, Instagram, YouTube, LinkedIn) are also provided for further engagement. A 'LEARN MORE' button is also present.",
+  "raw_text": "NSRIT AUTONOMOUS LEARN MORE INDUSTRIAL VISIT WATER TREATMENT PLANT NARAVA, VISAKHAPATNAM, ANDHRA PRADESH Water treatment is a crucial aspect of civil engineering, as it ensures the safe and sustainable management of water resources. DEPARTMENT OF CIVIL ENGINEERING 05 MARCH 2025 www.nsrit.edu.in",
+  "source_page": 1,
+  "source_file": "events_photos.pdf",
+  "processed_at": "2026-02-12T17:30:25.482392"
+}
